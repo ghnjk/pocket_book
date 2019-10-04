@@ -1,5 +1,5 @@
 <?php
-function total_account_sum($bankid, $state){
+function total_account_sum($bankid, $state, $zhifu){
 	global $conn;
 	$where = "where 1=1 ";
 	if($bankid != ""){
@@ -8,8 +8,10 @@ function total_account_sum($bankid, $state){
 	if($state != ""){
 		$where .= " and state = '$state' ";
 	}
-	// 收入
-	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 1";
+	if($zhifu != ""){
+		$where .= " and zhifu = '$zhifu' ";
+	}
+	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where;
 	$query = mysqli_query($conn,$sql);
 	$row = mysqli_fetch_array($query);
 	if($row['total']){
@@ -17,16 +19,7 @@ function total_account_sum($bankid, $state){
 	}else{
 		$money = "0.00";
 	}
-	// 指出
-	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 2";
-	$query = mysqli_query($conn,$sql);
-	$row = mysqli_fetch_array($query);
-	if($row['total']){
-		$out_money = $row['total'];
-	}else{
-		$out_money = "0.00";
-	}
-	return strval($money) - strval($out_money);
+	return strval($money);
 }
 function estimate_sumary($start, $end, $uid, $bankid, $state="", $type=0, $classid=0){
 	global $conn;
