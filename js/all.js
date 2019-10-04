@@ -117,6 +117,8 @@ function updateAllRecordState(form, state){
 		alert("未知状态");
 		return false;
 	}
+	url:"date.php?action=updaterecordAll?state=" + state;
+	alert(url);
 	var r=confirm(msg);
 	if(r==true){
 		$.ajax({
