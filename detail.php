@@ -94,9 +94,13 @@ if($s_bankid != ""){
     <tr>
         <td bgcolor="#EBEBEB">汇总信息：</td>
         <td bgcolor="#EBEBEB">总收入：</td>
-        <td bgcolor="#EBEBEB">100.00</td>
+        <td bgcolor="#EBEBEB"><?php
+            echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,1));
+        ?></td>
         <td bgcolor="#EBEBEB">总指出：</td>
-        <td bgcolor="#EBEBEB">200.00</td>
+        <td bgcolor="#EBEBEB"><?php
+            echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,2));
+        ?></td>
     </tr>
 </table>
 
@@ -117,7 +121,7 @@ if($s_bankid != ""){
             echo "<ul class=\"table-row ".$fontcolor."\">";
                 echo "<li><i class='noshow'>".$word.">></i>".$row['classname']."</li>";
                 echo "<li>".bankname($row['bankid'],$userid,"默认账户")."</li>";
-                echo "<li class='t_a_r'>".$row['acmoney']."</li>";
+                echo "<li class='t_a_r'>".show_money($row['acmoney'])."</li>";
                 if(isMobile()){
                     echo "<li>".date("m-d",$row['actime'])."</li>";
                 }else{
