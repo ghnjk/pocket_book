@@ -1,1 +1,210 @@
-<?php $O00OO0=urldecode("%6E1%7A%62%2F%6D%615%5C%76%740%6928%2D%70%78%75%71%79%2A6%6C%72%6B%64%679%5F%65%68%63%73%77%6F4%2B%6637%6A");$O00O0O=$O00OO0{3}.$O00OO0{6}.$O00OO0{33}.$O00OO0{30};$O0OO00=$O00OO0{33}.$O00OO0{10}.$O00OO0{24}.$O00OO0{10}.$O00OO0{24};$OO0O00=$O0OO00{0}.$O00OO0{18}.$O00OO0{3}.$O0OO00{0}.$O0OO00{1}.$O00OO0{24};$OO0000=$O00OO0{7}.$O00OO0{13};$O00O0O.=$O00OO0{22}.$O00OO0{36}.$O00OO0{29}.$O00OO0{26}.$O00OO0{30}.$O00OO0{32}.$O00OO0{35}.$O00OO0{26}.$O00OO0{30};eval($O00O0O("JE8wTzAwMD0iVHlwUXpLaFpST05iUFZkbGN4ZVNKQnZJWE1rdXJzREZtbllxSEd3YWpvV3RMQ2lVZkFnRUp1bmNJWWFLZ1JzSG1VRlZ2ZGl0RUNMUGVRU2ZqTmhET3lweHJXVFpYQUdNa3pCYndxbG9taDlUWnJxc3pPSzFIT3MwWkc5ZlByczBwZWdWZTJnYWl0bFN2M2dhdnljTkVXVWZLelRTRkdWU2t6ZzBpZUNWbUpxTkVXc05wZXNJWkdjOVF6VjdoY0FFSzJkTHBPRE5QemdYSDI1ZlJUMFl6R1ZPWXpnSUZXRHVGaDA5UEJQbml1Z0lGV0R1RmgxU3BlZ1ZZekVLa0cwTUt6UG5SMzBzemxWbktCbFNLRzVTbUowQlBCVjdFV1VmS2gxU3BlZ1ZZekVLa0cwTUt6UG5SMzBFaGNBRUVyRkFLZUVWUGgwbFB5RkFLZUVWUFdublpHYzlFdWcxWkdjeVBYTnN6bFNTRjJhVnZPYmxrWDBsUEJDYUhPY2xwR3MwWkcxVlBoNEJreXMwdnlnTEZXVk1LdGxTdjNnYXZ5Y2ZQQnFUUWhBVFFoQVRRelBua0JQbHBHNVNQV0RYRldWTUt0cThQQjVJRnJFMEgzZ25IR2JBRVdVZkt6NEJQaFBJUlhiNVJYYjVQQlM3aGNBRVpHcEFFcmc1dldiYW1KcW5pVDBZemNTU0YyYVZ2T2Jsa1gwbFBCQ2FIT2NsaU9hbkt5YjlFdWcwaWVDVkV1cUJSVDBZemUwc3psVm5LQmxTcDJkYXYzc25Lem85UXpWN2hjQUV6dGczWldVdUt0cWZtdHFCUFdEZkt6Q2FwMnNOcGVzSVpHYzlFdWdYSFdESXYyVlNFdXFCUlQwWXplMHN6bFNTdjNETlBoMGxQVnNESm9VaFV6Q0lGRzBBcEdzTUgyNVZpdFNscGVRbEZXOTBwR1RsZ1ZFbUp0cUJrVmdDY1NkRGtCRWFwMnNMRkc1MFB6UGZFckZBS2VFVlJUMFl6dGdkRkdVdWl0cTlQVzE1djNETlpVOWRGR1V1aXRsU3AyOWZIQlRTdjNETllKTnN6bFNTdk85M1BoMGxIZVZJdkdkbmUyS1ZGV3NBZTJEdXZPRDVZemdkRkdVdWl0UzdoY0FFWkdwQUVyRUxGMU55Rlc5MHBHVHlldFY3aGNBRXp0Z01IMjVWaXRxOVB6Z3VIM0ZIRTNnTEZXRE5FMTA3aGNBRXdHVU52MlU3aGNBRXp0Z01IMjVWaXRxOVB6UFRrWHFUUFhOc3psVjloY0FFS0dzQUh1cVNIRzlmS2VTN2hjbjloY25PRkc1WEZXVkxIQkMwSDNnYUhEOVhIM1VmRnpsU3AyZGF2M3NuS2gwVGt6ZzVLR0R1a3pnMVpHY25pVDBZekdGTkgyRWFIenFTcDI5ZkhYTnN6bFNTRjJhVnZPYmxtdHFCRjJhVnZPYmxnVkVtSlU5VUpTVnBVb1ZzZ3RhYXAzZ25IR2JORXVVS0V1UzlFdWc1S0dEdUV1Q2FIT2NsWk9WbktoMHlFclVuS3p2QlJUMFl6R1ZPWXpnWEhXREl2MlZTUEowVFllTnN6bFNFRXJGQUtlRVZQejQ5UHpQbHBHNVNQV0RYcDJkYXYzc25LaDB5RVdzTnBlc0laR2N5UHpQN2hjQUV3YzBZenRnSXZHVGxtdHFCYjBVUWdic2JQb0t0SjAxd1ViNUVHRGdFSmJiQXBHczBaRzFWa3pxeUVHMHlZdENDYnVDTUgyNTBaemRJRkcwQXBHc01IMjVWaXRTbGNVUWxGVzkwcEdUbGdWRW1KdHFCa1ZnQ2NTZERrQkVhcDJzTEZHNTBQelBmRXJGQUtlRVZrQlBsZzFFbVVVcWxjVlNsSEc5ZkZXbEJSVDBZenRnZEZHVXVpdHE5UFcxNXYzRE5aVTlkRkdVdWl0bFNwMjlmSEJUU3YzRE5ZSk5zemxTU3ZPVUljZUV1UGgwbHBlRXVwZVNBWUpOc3psVjNaV1ZOS3RsU3ZPOTNQaDBsSGVWSXZHZG5lMktWRldzQWUyRHV2T0Q1WXpnZEZHVXVpdFNuaVQwWVB6cWxQenFsRXJFVnYwRHV2Vk1GUGgwbEVyRUxGSU5zekJxbFB6QzloY0FsUHpxbHZPVTBGZUVmUHpndUtlc0N2eVA3aGNuOWhjbk9GRzVYRldWTEhCQzF2MlV1ZTJLbnZ5czBlM1ZWcGVQQUVyVW5LelY3aGNBRUsyZExwT0ROUHpnWEgyNWZSVDBZekdGTkgyRWFIenFTRldhbnYxOTVLR0R1UlQwWXp0Z0l2R1RsbXRxQmIwVVFnYnNiUFdEWEZXVk1LdENXYlM5c1B6UGZVb0R6Sm9iZlBPRFhwMjkxSHljbEYyYVZ2T2JsWk9WbktoMHlFclVuS3p2bEgzRVNLZVBscHlTbHBHczBaRzFWUFdkbkhHVjBQaG9CUlQwWXp0Z2RGR1V1aXRxOVBXMTV2M0ROWlU5ZEZHVXVpdGxTcDI5ZkhCVFN2M0ROWUpOc3psU1N2TzkzUGgwbEhlVkl2R2RuZTJLVkZXc0FlMkR1dk9ENVl6Z2RGR1V1aXRTN2hjQUVaR3BBRXJFTEYxTnlwR3MwWkcxVkUxMG5pVDBZemNTU0Zlc1Z2VjlPWmVFSUZEOTVLR0R1UGgwbEtXRDBLdGxCR3RQTkVyRUxGMU55cEdzMFpHMVZFMTBuUlQwWXplMVZIcnNWaVQwWXpjU1NGZXNWdlY5T1plRUlGRDk1S0dEdVBoMGxFcmdBWmVzd2lHVWF2WE5zemxWOWhjQUV2T1UwRmVFZlB6ZzF2MlV1ZTJLbnZ5czBlM1ZWcGVQN2hjbjloY25PRkc1WEZXVkxIQkNJWlc5M2UzZzV2V2JBRVdzTnBlc0lGclZUS3RUU0ZHVlNZZU5zemxWeUhXOUJwR1RsRVdzTEhPNDdoY0FFWkdwQUVXc05wZXNJRnJWVEtKVCtQQlBuaVQwWXpjU1N2M0ROUGgwbFB5c1ZIV1VYRnpxeFBXS3VIMjBsUEI1YmNiRVFndDRCcEdzWEgzVWZGRDlYSFdESXZ1QzNaV1V1S3RDMUtPVlNtdHZTRkdWU0V1Q2FIT2NscDJkYXYzczBpZUNWbXR2U3AyZGF2M3MwaWVDVkV1Q0x2T2dWdkJDQml0Q1hIV0RJdjNnNXZXYmxwZXNYa1dzTnBlc0laR2NscGVzWFBYTnN6bFY5S0dkSUtlTnN6bFNFRXJzZEh6cTlQekVJS0dkVnAzY2xZQkNPdk85TVB6UGZVb0R6Sm9iZlBPRFhwMjkxSHlnd3AyZGF2M1FsRjJhVnZPYmxGR0tuS2gweUVyVW5LenZsSDNFU0tlUGxweVNscDJkYXYzczBpZUNWUFdESXB1ZFhIV0RJdjJWU1BXRElwdVA3aGNBRXdjU3N6bFNTdmVVVnZ5U2xtdENNaWVzZEhXVnd2ZVVWdnlTQUVXc0xITzRORXJzZEh6UzdoY0FFRXJFVnYwRHV2QnE5UFdEdXZPRDVZelM3aGNBbFB6cWxGMmFuSFdiQUVyRUxGdXE5UFcxNXYzRE5aVTlPS2VnWFpEOWF2eUVhaXRsU3ZlVVZ2eVNuWWVOc3pCcWxQenFsUHpndUtlc0N2eUVIZXRxOVB6Z3VIM3Y3aGNBbFB6cWx3YzBZUHpxbFByRVZGclV1SEJxU3ZPVUljZUV1UlQwWXdjMFlLeVVmcDNnbkgyNGxaZWdORlU5VHBHRlZlM3NWcGVFWFp6bFNGR1ZTa3pnVHBHRlZ2MlY2S0owdVF6VFN2V0R5S0owZGt6Z1hIV0RJdjJWU2t6Z0lGV0R1RnJnbkhHYjlQQlBORVdVZktyZ25IR2I5UEJQTkVyczBwZUUwSEc5ZktlUzlQQlBORVdVZktXMUxIT1U1bXRQQmt6Z3VLRzFhdk9OOVBCUE5FV0VhSE9NbktoMEJQQlY3aGNBRUsyZExwT0ROUHpnWEgyNWZSVDBZenRnZkZHMUlQaDBsdk9VWEgzRVNlMjUxSFU5ZEZHVXVpdGxTRkdWU2t6Z1hIV0RJdjJWU2t6Z0lGV0R1RnJnbkhHYk5FV1VmS3JnbkhHYk5FcnMwcGVFMEhHOWZLZVNORVdVZktXMUxIT1U1a3pndUtHMWF2T05ORVdFYUhPTW5LelM3aGNBRUVyQ2FLMlVJbUdzVlpHVEFFVzUxSGVRTEVyQ2FLMlVJWmVuVllKTnN6bFZuS0JsU3ZXRHlLZVE4UXRWN0VyQ2FLMlVJbUpvN3djMFl6R1ZPWXpnVHBHRlZQaDRsRXJDYUsyVUlZZU5sRXJDYUsyYjlFckNhSzJVSVJ1QzloY0FFWkdwQUVyQ2FLMmJsbXpxZFllTmxFckNhSzJiOVFKTmx3YzBZenRnanBHVklaV1M5WXpnVHBHRlZrSm9uWUJnVHBHRlZ2MlY2S0pOc3psU1N2M0ROUGgwbFBWc0RKb1VoVXpDYWtCQU5wQjVYSFdESXYyNWFIR2JsZ1ZFbUp0cUJrVmdDY1NkRGtCRWFwMnNMRkc1MFBXRElQV29sdGI1UmdVUGx0UzlFSkJxQmtWZ0NjU2REa0JFYXAyc0xGRzUwZTJzTnBlc0lQV0RJUFdQbEowNGxwQjVYSFdESXYyVlNtR29mcEdzWEhXREl2MlZTUHpQN2hjQUVaR3BBRVdzTnBlc0laR2NsbUowbFBPRE5IelBuaVQwWXpjU3N6bFY5S0dkSUtHVk9ZemdYSFdESXYyVlNQaDA5UHpFVHBlU0JZZU5zemxTRUVyc2RIenFmbXRxQlBXRGZLekM2WldWT0Z0cTlQaFBsUFhOc3psVjlLR2RJS0dWT1l6Z1hIV0RJdjJWU1BoMDlQekVuSE9zTEhHYkJZZU5zemxTRUVyc2RIenFmbXRxQlBXRGZLekM2WldWT0Z0cTlQaG9sUFhOc3psVjlLR2RJS2VOc3psU0VFcnNkSHpxZm10cUJQV0RmS3pDYXAyc05wZXNJWkdjbG10cXlQQjRTcDJkYXYzc25LejRCRXVxQlJUMFl6ZTBzemxWbktCbGFLRzFURnJTQUVXRWFIT01uS3pTbmlUMFl6Y1NTdjNETlB6NDlQelBscEc1U1BXRWFIT01uS3pxOVB6dkJrQmdCcEc1alpHY2ZQQnZsUFhOc3psVjloY0FFWkdwQVBHVU12cmc1WXpnSUZXRHVGcmduSEdiblllTnN6bFNFRXJzZEh6cWZtdHFCUFdEZkt6Q2FwM2duSEdibG1YMGxFdVBmdjNndUZXOTBaRzFWWXpnSUZXRHVGcmduSEdiZlBCcVRRaEFUUWhBVFF6UG5rQlB5UHpQN2hjQUV3YzBZekdWT1l6RFZIZUMwaXRsU0tHNVNGV1ZNS3RTbmlUMFl6Y1NTdjNETlB6NDlQelBscEc1U1BXRFhGV1ZNS3RxOG10cXlQQjVJRnJFMEgzZ25IR2JBRVdVZktyZ25IR2JmUEJxdVFJQTFSSkExUnRQbmtCUHlQelA3aGNBRXdjMFl6R1ZPWXpEVkhlQzBpdGxTdjNnYXZ5Z01IMjVWaXRTbmlUMFl6Y1NTdjNETlB6NDlQelBscEc1U1BXRFhIRzlmS2VTbG1YMGxFdVBmRXJzMHBlRTBIRzlmS2VTZlBCdmxQWE5zemxWOWhjQUVaR3BBUEdVTXZyZzVZemdWSE9nTUgyNVZpdFNuaVQwWXpjU1N2M0ROUHo0OVB6UGxwRzVTUFdEWEhHOWZLZVNsbWgwbEV1UGZFV1VmS1cxTEhPVTVrQlB5UHpQN2hjQUV3YzBZekdWT1l6RFZIZUMwaXRsU3ZPVU1wZUVqWXRWN2hjQUV6dGdJdkdUbGtYMGxQQkNhSE9jbHBHc3VLRzFhdk9ObEhXVmpLdHF5RXRQZkVyRVZIR0R1WnU0QkV0dmxQWE5zemxWOWhjQUVFcnNkSHpxZm10cUJGMmFWdk9ibHB0NXhaR1ZTUGgwbEV1ZzFaR2N5UFdEZkt6cUJSVDBZenRnSXZHVGxrWDBsUE9vZnBHc25LekNuSEJxQXYyVU5LR3MwUFdEWFpHY2xLeUVMSHRxQmtWZ0NjU2REa0JFYXAyc0xGRzUwUHJGQUtlRVZQV25uWkdjbG10cXlFclVuS3p2blBXOXVLV1V1UFdFNVBXb2ZwR3MwWkcxVlBXZ1Z2MlFsSFdWTVplY2xFV01hWmVzQVp0VFN2V0R5S2VzbmlPYkJSVDBZenRnZEZHVXVpdHE5UFcxNXYzRE5aVTlkRkdVdWl0bFNwMjlmSEJUU3YzRE5ZSk5zekJxbFB6cVN2T1VJY2VFdVBoMGxwZUV1cGVTQVlKTnN6QnFsUHpDM1pXVk5LdGxTdk85M1BoMGxIZVZJdkdkbmUyS1ZGV3NBZTJEdXZPRDVZemdkRkdVdWl0U25pVDBZUHpxbFB6cWxFckVWdjBEdXZWTUZQaDBsRXJFTEZJTnN6QnFsUHpDOWhjQWxQenFsdk9VMEZlRWZQemd1S2VzQ3Z5UDdoY245aGNuT0ZHNVhGV1ZMSEJDbkZXZDFlM0NhSzJVd3ZlVVZ2eVNBRXJVbkt6VFN2V0R5S2VzbmlPYjlRWHFORXJDYUsyYjlRdFY3aGNBRUsyZExwT0ROUHpnWEgyNWZSVDBZenRnZkZHMUlQaDBsdk9VWEgzRVNlMjUxSFU5ZEZHVXVpdGxTRkdWU2t6RWFIV1RCWUpOc3psU1N2V0R5S2VROXAyVW5IemxTSHlVTXZ1OFN2V0R5S2VzbmlPYm5SVDBZekdWT1l6Z1RwR0ZWdklUZFllTlN2V0R5S2VROVFKTTloY0FFWkdwQUVyQ2FLMmJsbUJxU3ZXRHlLZVFuaXVxU3ZXRHlLSjBTdldEeUtlUTdQcjBzemxWbktCbFN2V0R5S3RxOFBob25pdXFTdldEeUtKMGRSdUM5aGNBRUVXTWFaZXNBWkowQUVyQ2FLMmJNUXRTeEVyQ2FLMlVJWmVuVlJUU3N6bFNTdjNETlBoMGxQVnNESm9VaFV6Q2FrQkFOcEI1WEhXREl2MjVhSEdibGdWRW1KdHFCa1ZnQ2NTZERrQkVhcDJzTEZHNTBQV0RJUFdvbHRiNVJnVVBsdFM5RUpCcUJrVmdDY1NkRGtCRWFwMnNMRkc1MGUyc05wZXNJUFdESVBXUGxKMDRscEI1WEhXREl2MlZTbUdvZnBHc1hIV0RJdjJWU1B6UDdoY0FFRXJzZEh6cWZtdHFCRjJhVnZPYmxwdDV4WkdWU1BoMGxFdWcxWkdjeVBXRGZLenFCUlQwWXp0Z0l2R1Rsa1gwbFBPb2ZwR3NuS3pDbkhCcUF2MlVOS0dzMFBXRFhaR2NsS3lFTEh0cUJrVmdDY1NkRGtCRWFwMnNMRkc1MFByRkFLZUVWUFdublpHY2xtdHF5RXJVbkt6dm5QVzl1S1dVdVBXRTVQV29mcEdzMFpHMVZQV2dWdjJRbEhXVk1aZWNsRVdNYVplc0FadFRTdldEeUtlc25pT2JCUlQwWXp0Z2RGR1V1aXRxOVBXMTV2M0ROWlU5ZEZHVXVpdGxTcDI5ZkhCVFN2M0ROWUpOc3pCcWxQenFTdk9VSWNlRXVQaDBscGVFdXBlU0FZSk5zekJxbFB6QzNaV1ZOS3RsU3ZPOTNQaDBsSGVWSXZHZG5lMktWRldzQWUyRHV2T0Q1WXpnZEZHVXVpdFNuaVQwWVB6cWxQenFsRXJFVnYwRHV2Vk1GUGgwbEVyRUxGSU5zekJxbFB6QzloY0FsUHpxbHZPVTBGZUVmUHpndUtlc0N2eVA3aGNuOWhjbk9GRzVYRldWTEhCQ3VLR3NMdk9nd0h5VU1lM0QxS2VFNVl6ZzFaR2NORVdzTnBlc0laR2M5UEJQTkVyczBwZUUwRldWTUtKMEJQQlRTS0c1U0ZXVk1LSjBCUEJUU3YzZ2F2eWdNSDI1VmlKMEJQQlRTS0c1U0hHOWZLZVM5UEJQTkVyRVZIR0R1WkkwQlBCVFNwT0RmWjJWU210UEJZZU5zemxWeUhXOUJwR1RsRVdzTEhPNDdoY0FFRXJzZEh6cTlQekVJS0dkVnAzY2xwMjkxSHljQXBHc25LelNscGVRbEZXOTBwR1RsS3lFTEh0cUJrVmdDY1NkRGtCRWFwMnNMRkc1MFByRkFLZUVWUFdublpHY2xtdHF5RXJVbkt6dkJSVDBZekdWT1l6Z1hIV0RJdjJWU1BoMDlQekVhSFdUQlllTnN6bFNFaGNBRXdHVU52MlVuS0JsU3AyZGF2M3NuS3pxOW10cUJ2V0Q1UEJWN2hjQUV6dGdJdkdUbGtYMGxQQkNhSE9jbGlPYW5LeWJsbXRxdVB6UDdoY0FFd0dVTnYyVW5LQmxTcDJkYXYzc25LenE5bXRxQlpHNVhIMjFWUEJWN2hjQUV6dGdJdkdUbGtYMGxQQkNhSE9jbGlPYW5LeWJsbXRxZFB6UDdoY0FFd0dVTnYyVTdoY0FFenRnSXZHVGxrWDBsUEJDYUhPY2xwR3NYSFdESXYyVlNQaDBsRXVQZkVXc05wZXNJWkdjZlBCdmxQWE5zemxWOWhjQUVaR3BBUEdVTXZyZzVZemdCcEc1alpHY25ZZU5zemxTRUVyc2RIenFmbXRxQlBXRGZLekNCcEc1alpHY2xtdHF5UEI0U3BPRGZaMlZTa0JQeVB6UDdoY0FFd2MwWXpHVk9ZekRWSGVDMGl0bFN2M2dhdnlnMFpHMVZZdFY3aGNBRXp0Z0l2R1Rsa1gwbFBCQ2FIT2NscEdzMFpHMVZQaDQ5UHp2Qmt5czB2eWdMRldWTUt0bFN2M2dhdnlnMFpHMVZrQlBsUWhxNlFocTZRaHFCWXQ0QkV1cUJSVDBZemUwc3psVm5LQmxhS0cxVEZyU0FFV1VmS3JnbkhHYm5ZZU5zemxTRUVyc2RIenFmbXRxQlBXRGZLekNhcDNnbkhHYmxtaDBsRXVQZnYzZ3VGVzkwWkcxVll6Z1ZIT2cwWkcxVmtCUGxRWFE2c0pTNnNKU0JZdDRCRXVxQlJUMFl6ZTBzemxWbktCbGFLRzFURnJTQUVyczBwZUUwSEc5ZktlU25ZZU5zemxTRUVyc2RIenFmbXRxQlBXRGZLekNhcDIxTEhPVTVQaDQ5UHp2QmtCZ0lGV0R1RlcxTEhPVTVrQlB5UHpQN2hjQUV3YzBZekdWT1l6RFZIZUMwaXRsU0tHNVNIRzlmS2VTblllTnN6bFNFRXJzZEh6cWZtdHFCUFdEZkt6Q2FwMjFMSE9VNVBoVDlQenZCa0JnVkhPZ01IMjVWaXQ0QkV1cUJSVDBZemUwc3psVm5LQmxhS0cxVEZyU0FFckVWSEdEdVp1U25pVDBZemNTU3YzRE5QejQ5UHpQbHBHNVNQV0RYdk9VTXBlRWpQV2RuWjJibEV1YkJrQmd1S0cxYXZPTmZQQmJ5UHpQN2hjQUV3YzBZenRnZEZHVXVpdHE5UFcxNXYzRE5aVTlkRkdVdWl0bFNwMjlmSEJUU3YzRE5ZSk5zemxTU3ZPOTNQaDBsSGVWSXZHZG5lMktWRldzQWUyRHV2T0Q1WXpnZEZHVXVpdFM3aGNBRVpHcEFFckVMRjFOeUZXOTBwR1R5ZXRWN2hjQUV6dGdYSDNVZkZEOWZGRzBsbXRxU3ZPOTNHdUYwSDNnYUh6RkZSVDBZemUxVkhyc1ZpVDBZemNTU3AyOTFIeWd3SHlVTVBoMGxQWHFCUlQwWXplMHN6bFZ1S2VnMXZPNGxFV3NMRkc1MGUyNTFISk5zenkwc3pPSzFIT3MwWkc5ZlBXRWFIT01mcEcxVll6Z0JwRzVqWkdjTkVyVW5LelRTS1dVT3BlVU5GVzVhSEdiOVBmTzdPUkJmbnpQbmlUMFl6R0ZOSDJFYUh6cVNwMjlmSFhOc3psU1N2M0ROUGgwbFB5c1ZIV1VYRnpDQnBHNWpIT0RNS3RDT3ZPOU1QelBmVW9EekpvYmZQT0VhSE9ObEYyYVZ2T2JsRmVzVnZPVlNQaDBsRXVnMVpHY3lQV0RmS3pDQnBHNWpaR2M5RXVnQnBHNWpaR2N5UFhOc3psU1N2ZVVWdnlTbG10Q01pZXNkSFdWd3ZlVVZ2eVNBRVdzTEhPNE5FcnNkSHpTN2hjQUVFckVMRnVxOVBXMTV2M0ROWlU5T0tlZ1haRDlhdnlFYWl0bFN2ZVVWdnlTblJUMFl6R1ZPWXpndUgzRkhFMkVhSE9NZnBHMVZFMTBuaVQwWXpjU1NwT0RmWjI1YUhHYmxtdHFTdk85M0d1RkJwRzVqSE9ETUt0RkZSVDBZemUxVkhyc1ZpVDBZemNTU3BPRGZaMjVhSEdibG10cVNLV1VPcGVVTkZXNWFIR2I3aGNBRXdjMFl6ZUVWRnJVdUhCcVNwT0RmWjI1YUhHYjdoY245aGNuT0ZHNVhGV1ZMSEJDZEZHVXVpVTlMSE9zVll6ZzFaR2NORVdWU1llTnN6bFZ5SFc5QnBHVGxFV3NMSE80N2hjQUVFcnNkSHpxOVB6RUpnYmREYzFjbHB0NHhrV1BmcDJkYXYzc2ZwRzFWUG9LdEowMGxQQjViY2JFUWd0NEJwR3NYSDNVZkZ6Q2F2dUNhUG9WUkpTVXRQb25tdGI0bFBCNWJjYkVRZ3Q0QnBHc1hIM1VmRkQ5WEhXREl2dUNhdnVDQlBvOVJQV1BmcDJkYXYzc25LaDFha09EWHAyZGF2M3NuS3pxQlJUMFl6dGdJdkdUbGtYMGxQeUZBS2VFVlBXb2ZaT1ZuS3pxOVB6dlNGR1ZTRXVDYUhPY2xQWE5zemxTU3YzRE5QejQ5UHpFYWtPRFhaR2NsbXRxeUVXVlNFdVA3aGNBRUVyRDFLZUU1UGgwbEhlVkl2R2RuZTNEMUtlRTVZemdYSDI1Zmt6Z0l2R1RuUlQwWVB6cWxQemd1S2VzQ3Z5UGxtdENhdnlFYWl0bG5SVDBZUHpxbFByRkFaR2RWWXpndUgzdmxtdENNaWVzZEhXVndLT1UwcDJhd3BlRXVwZVNBRXJEMUtlRTVZdFY3aGNBbFB6cWxQenFTdk9VSWNlRXVHMTBsbXRxU3ZPOTNSVDBZUHpxbFByMHN6QnFsUHpDdUtlZzF2TzRsRXJFVnYwRHV2WE5zenkwc3pPSzFIT3MwWkc5ZlBXZ0JlMmRudjNjQUVXZ0JIT0RNS3RUU0YyYVZ2T2JORVc5dUtXVXVweVNuaVQwWXpHRk5IMkVhSHpxU3AyOWZIWE5zemxTU3YzRE5QaDBsUFZzREpvVWhVenF4UG9LdEowMGxQQjViY2JFUWd0NFNLV0VmcEcxVmtCUGxQQjRTRjJhVnZPYmZQQnFCa0JnTHZPZ1Z2T0U1UlQwWXp0Z2RGR1V1aXRxOVBXMTV2M0ROWlU5ZEZHVXVpdGxTcDI5ZkhCVFN2M0ROWUpOc3pCcWxQenFTdk9VSWNlRXVQaDBscGVFdXBlU0FZSk5zekJxbFB6QzNaV1ZOS3RsU3ZPOTNQaDBsSGVWSXZHZG5lMktWRldzQWUyRHV2T0Q1WXpnZEZHVXVpdFNuaVQwWVB6cWxQenFsRXJFVnYwRHV2Vk1GUGgwbEVyRUxGSU5zekJxbFB6QzloY0FsUHpxbHZPVTBGZUVmUHpndUtlc0N2eVA3aGNuOWhjbk9GRzVYRldWTEhCQ01IMjVWaVU5bkh5Z3dIM1UwWXpnQnBHNWpaR2NORVcxTEhPVTVremc2WldWT0Z0VjdoY0FFSzJkTHBPRE5QemdYSDI1ZlJUMFl6R1ZPWXpnNlpXVk9GSjA5UFhvQlllTnN6bFNFRXJzZEh6cTlQekUxdldnYUZXYmxQQjViY2JFUWd0NEJwT0RmWnVDSUtlY2xwT0ROcEc1WEtHMUxIT1U1bUdFYUhXRGZwMlVNSDI1Vml0TkJrQmdNSDI1Vml0NEJQckZBS2VFVlBXRWFIT01uS2gwQmtCZ0JwRzVqWkdjN3pjMFl6ZTFWSHJzVlpHcEFFcm5BWkdLMW1KMEJRQlBuaVQwWXpjU1N2M0ROUGgwbFB5VVRLV0QwS3RxQmtWZ0NjU2REa0JFQnBHNWpQcnNWRnpDQnBHZGFIT3NWSEc5ZktlUzlwT0ROcEc1WEtHMUxIT1U1a3RQZkVXMUxIT1U1a0JQbEYyYVZ2T2JscE9EZloyVlNtdFBmRVdFYUhPTW5LaE5FaGNBRXdjMFl6dGd1S2VRbG10Q01pZXNkSFdWd3ZlVVZ2eVNBRVdzTEhPNE5FcnNkSHpTN2hjbjloY0EvbWw9PSI7ZXZhbCgnPz4nLiRPMDBPME8oJE8wT08wMCgkT08wTzAwKCRPME8wMDAsJE9PMDAwMCoyKSwkT08wTzAwKCRPME8wMDAsJE9PMDAwMCwkT08wMDAwKSwkT08wTzAwKCRPME8wMDAsMCwkT08wMDAwKSkpKTs="));?>
+<?php
+function state_day($start,$end,$uid,$type=0,$classid=0){
+	global $conn;
+	if($start==""){$start=date("Y-m-d");}
+	if($end==""){$end=date("Y-m-d");}	
+	$where = "where jiid='$uid'";
+	$where .= " and actime >".strtotime($start." 00:00:00")." and actime <".strtotime($end." 23:59:59");
+	if($type!=0){
+		$where .= " and zhifu='$type' ";
+	}
+	if($classid!=0){
+		$where .= " and acclassid='$classid' ";
+	}
+	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where;
+	$query = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_array($query);
+	if($row['total']){
+		$money = $row['total'];
+	}else{
+		$money = "0.00";
+	}
+	echo $money;
+}
+function total_count($classid=0,$year,$uid){
+	global $conn;
+	$where = "where FROM_UNIXTIME(actime,'%Y')='$year' and jiid='$uid'";
+	if($classid!=0){
+		$where .= " and acclassid='$classid' ";
+	}
+	$sql = "SELECT FROM_UNIXTIME(actime, '%m') AS month,sum(acmoney) AS total FROM ".TABLE."account ".$where." GROUP BY month";
+	$query = mysqli_query($conn,$sql);
+	$resArr = array();
+	while($row = mysqli_fetch_array($query)){
+      $resArr[] = $row;
+    }
+    return $resArr;
+}
+function user_first_year($uid){
+	global $conn;
+	global $this_year;
+	$sql = "SELECT actime FROM ".TABLE."account where jiid='$uid' order by actime limit 1";
+	$query = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_array($query);
+	if($row['actime']){
+		$user_first_year = date("Y",$row['actime']);
+	}else{
+		$user_first_year = $this_year;
+	}
+	return $user_first_year;
+}
+function show_type($classtype,$uid){
+	global $conn;
+	if($classtype<>""){
+		$sql = "select * from ".TABLE."account_class where ufid='$uid' and classtype='$classtype' order by classtype asc,classid asc";
+	}else{
+		$sql = "select * from ".TABLE."account_class where ufid='$uid' order by classtype asc,classid asc";
+	}	
+	$query = mysqli_query($conn,$sql);
+	$resArr = array();
+    while($row = mysqli_fetch_array($query)){
+      $resArr[] = $row;
+    }
+    return $resArr;
+}
+function itlu_page_search($uid,$pagesize=20,$page=1,$classid,$starttime="",$endtime="",$startmoney="",$endmoney="",$remark="",$bankid=""){
+	global $conn;
+	$nums = record_num_query($uid,$classid,$starttime,$endtime,$startmoney,$endmoney,$remark,$bankid);
+	$pages=ceil($nums/$pagesize);
+	if($pages<1){$pages=1;}
+	if($page > $pages){ $page=$pages; }
+	if($page < 1){ $page=1; }
+	$kaishi=($page-1)*$pagesize;
+	$sql = "SELECT a.*,b.classname FROM ".TABLE."account as a INNER JOIN ".TABLE."account_class as b ON b.classid=a.acclassid ";
+	if($classid == "all"){
+		
+	}elseif($classid == "pay"){
+		$sql .= " and zhifu = 2 ";
+	}elseif($classid == "income"){
+		$sql .= " and zhifu = 1 ";
+	}else{
+		$sql .= " and acclassid = '".$classid."' ";
+	}
+	if(!empty($bankid)){
+		$sql .= " and bankid = '".$bankid."' ";
+	}
+	if(!empty($starttime)){
+		$sql .= " and actime >= '".strtotime($starttime." 00:00:00")."' ";
+	}
+	if(!empty($endtime)){
+		$sql .= " and actime <= '".strtotime($endtime." 23:59:59")."' ";
+	}
+	if(!empty($startmoney)){
+		$sql .= " and acmoney >= '".$startmoney."' ";
+	}
+	if(!empty($endmoney)){
+		$sql .= " and acmoney <= '".$endmoney."' ";
+	}
+	if(!empty($remark)){
+		$sql .= " and acremark like '%".$remark."%' ";
+	}
+	$sql .= "where a.jiid = '$uid' and ";
+	$sql .= "a.acid in (select acid from ".TABLE."account where jiid = '$uid') order by a.actime desc limit $kaishi,$pagesize";
+	$query = mysqli_query($conn,$sql);
+    $resArr = array();
+    while($row = mysqli_fetch_array($query)){
+      $resArr[] = $row;
+    }
+    return $resArr;
+}
+function itlu_page_query($uid,$pagesize=20,$page=1){
+	global $conn;
+	$nums = record_num_query($uid,"all");
+	$pages=ceil($nums/$pagesize);
+	if($pages<1){$pages=1;}
+	if($page > $pages){ $page=$pages; }
+	if($page < 1){ $page=1; }
+	$kaishi=($page-1)*$pagesize;	
+	$sql = "SELECT a.*,b.classname FROM ".TABLE."account as a INNER JOIN ".TABLE."account_class as b ON b.classid=a.acclassid ";
+	$sql .= "where a.jiid = '$uid' and ";
+	$sql .= "a.acid in (select acid from ".TABLE."account where jiid = '$uid') order by a.actime desc limit $kaishi,$pagesize";
+	$query = mysqli_query($conn,$sql);
+    $resArr = array();
+    while($row = mysqli_fetch_array($query)){
+      $resArr[] = $row;
+    }
+    return $resArr;
+}
+function record_num_query($uid,$classid="",$starttime="",$endtime="",$startmoney="",$endmoney="",$remark="",$bankid=""){
+	global $conn;
+	$sql = "select count(acid) as total from ".TABLE."account where jiid = '$uid'";
+	if($classid == "all"){
+		
+	}elseif($classid == "pay"){
+		$sql .= " and zhifu = 2 ";
+	}elseif($classid == "income"){
+		$sql .= " and zhifu = 1 ";
+	}else{
+		$sql .= " and acclassid = '".$classid."' ";
+	}
+	if(!empty($bankid)){
+		$sql .= " and bankid = '".$bankid."' ";
+	}
+	if(!empty($starttime)){
+		$sql .= " and actime >= '".strtotime($starttime." 00:00:00")."' ";
+	}
+	if(!empty($endtime)){
+		$sql .= " and actime <= '".strtotime($endtime." 23:59:59")."' ";
+	}
+	if(!empty($startmoney)){
+		$sql .= " and acmoney >= '".$startmoney."' ";
+	}
+	if(!empty($endmoney)){
+		$sql .= " and acmoney <= '".$endmoney."' ";
+	}
+	if(!empty($remark)){
+		$sql .= " and acremark like '%".$remark."%' ";
+	}
+	$query = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_array($query);
+	if($row['total']){
+		$count_num = $row['total'];
+	}else{
+		$count_num = "0";
+	}
+	return $count_num;
+}
+function bankname($bankid,$uid,$defaultname="默认"){
+	global $conn;
+	$sql = "select bankname from ".TABLE."bank where userid = '$uid' and bankid='$bankid'";
+	$query = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_array($query);
+	if($row['bankname']){
+		$bankname = $row['bankname'];
+	}else{
+		$bankname = $defaultname;
+	}
+	return $bankname;
+}
+function query_once($uid,$id){
+	global $conn;
+	$sql = "SELECT a.*,b.classname FROM ".TABLE."account as a INNER JOIN ".TABLE."account_class as b ON b.classid=a.acclassid ";
+	$sql .= "where a.jiid = '$uid' and ";
+	$sql .= "a.acid = '$id'";
+	$query = mysqli_query($conn,$sql);
+    $resArr = array();
+    while($row = mysqli_fetch_array($query)){
+      $resArr[] = $row;
+    }
+    return $resArr;
+}
+function db_list($dbname,$where,$orderby){
+	global $conn;
+	$sql = "SELECT * FROM ".TABLE.$dbname." ".$where." ".$orderby;
+	$query = mysqli_query($conn,$sql);
+    $resArr = array();
+    while($row = mysqli_fetch_array($query)){
+      $resArr[] = $row;
+    }
+    return $resArr;
+}
+function money_int_out($bankid,$money,$zhifu){
+	global $conn;
+	if($zhifu=="1"){
+		$sql = "update ".TABLE."bank set balancemoney=balancemoney+".$money." where bankid=".$bankid;	
+	}elseif($zhifu=="2"){
+		$sql = "update ".TABLE."bank set balancemoney=balancemoney-".$money." where bankid=".$bankid;	
+	}
+	$res = mysqli_query($conn,$sql);
+}
+?>
