@@ -5,7 +5,7 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
 <div class="table">
     <div class="table-header-group">  
         <ul class="table-row">  
-            <li class="w12p">账户</li><li class="w22p">余额</li><li class="w22p">记账</li>
+            <li class="w12p">账户</li><li class="w22p">余额</li><li class="w22p">操作</li>
         </ul>  
     </div>
     <div class="table-row-group">
@@ -13,7 +13,11 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
             <ul class="table-row">
                 <li><?php echo $item["bankname"] ?></li>
                 <li><?php echo show_money($item["balancemoney"]); ?></li>
-                <li><a href="add.php?bankid=<?php echo $item["bankid"] ?>">记账</a></li>
+                <li>
+                    <a href="add.php?bankid=<?php echo $item["bankid"] ?>">记账</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="detail.php?bankid=<?php echo $item["bankid"] ?>">明细</a>
+                </li>
             </ul>
         <?php } ?>
     </div>
