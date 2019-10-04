@@ -112,7 +112,7 @@ function show_tab($type){
 		echo "<div class=\"table\"><div class=\"table-header-group\"><ul class=\"table-row\"><li>类别名称</li><li>收/支</li><li>操作</li></ul></div>\n";
 		echo "<div class=\"table-row-group\">\n";
 	}elseif($type==6){
-		echo "<div class=\"table\"><div class=\"table-header-group\"><ul class=\"table-row\"><li>分类</li><li>账户</li><li>金额</li><li>状态</li><li>时间</li><li>备注</li></ul></div>\n";
+		echo "<div class=\"table\"><div class=\"table-header-group\"><ul class=\"table-row\"><li>分类</li><li>账户</li><li>金额</li><li>状态</li><li>时间</li><li>备注</li><li>操作</li><li class=\"noshow\"><input type=\"checkbox\" name=\"check_all\" id=\"check_all\" /> <input type='submit' id='all_clean' name='all_clean' value='结算' class='btn btn-danger btn-xs' /></li></ul></div>\n";
 		echo "<div class=\"table-row-group\">\n";
 	}
 }
