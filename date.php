@@ -151,7 +151,7 @@ if($getaction=="saverecord"){
 if($getaction=="updateRecordState"){
 	header('Content-type:text/html;charset=utf-8');
 	$get_id = get("id");
-	$state = get("state")
+	$state = get("state");
 	if(empty($get_id) || !is_numeric($get_id) || empty($state)){
 		$error_code = "缺少参数或参数非法！";
 	}else{
