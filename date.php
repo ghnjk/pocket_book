@@ -188,6 +188,22 @@ if($getaction=="deleterecordAll"){
 	$data = '{"code":"' .$success. '","error_msg":"' .$error_code.'","url":"' .$gotourl.'"}';
     echo json_encode($data);
 }
+if($getaction == "updaterecordAll"){
+	if(isset($_POST["del_id"]) && $_POST["del_id"] != "" && get("state") != ""){
+		$del_id = implode(",",$_POST['del_id']);
+		$sql = "update ".TABLE."account set state = '".get("state")."' where jiid='$userid' and acid in ($del_id)";
+		if (mysqli_query($conn,$sql)){
+			$success = "1";
+			$error_code = "更新成功！";
+		}else{
+			$error_code = "更新失败！";
+		}	
+	}else{
+		$error_code = "参数不正确！";
+	}			
+	$data = '{"code":"' .$success. '","error_msg":"' .$error_code.'","url":"' .$gotourl.'"}';
+    echo json_encode($data);
+}
 if($getaction=="changeclassify"){
 	$classid = post("classid");
 	$newclassid = post("newclassid");
