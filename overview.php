@@ -9,7 +9,7 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
         </ul>  
     </div>
     <div class="table-row-group">
-        <?php foreach($banklist: as item){ ?>
+        <?php foreach($banklist: as $item){ ?>
             <ul class="table-row">
                 <li><?php echo $item["bankname"] ?></li>
                 <li><?php echo $item["balancemoney"] ?></li>
