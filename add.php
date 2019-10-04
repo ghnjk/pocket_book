@@ -49,7 +49,7 @@ foreach($banklist as $myrow){
 			</div>
 			<div class="input-group">
 				<span class="input-group-label">时间</span>
-				<input class="form-field" type="text" name="time" id="time" size="30" value="<?php echo date("Y-m-d H:i");?>" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm',maxDate:'<?php echo $today;?>'})" />
+				<input class="form-field" type="text" name="time" id="time" size="30" value="<?php echo date("Y-m-d");?>"})" />
 			</div>
 			<div class="input-group">
 				<button name="submit" type="submit" id="submit_pay" class="btn btn-danger">支出记一笔</button>				
