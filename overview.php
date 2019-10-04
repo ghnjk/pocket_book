@@ -5,7 +5,7 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
 <div class="table">
     <div class="table-header-group">  
         <ul class="table-row">  
-            <li class="w12p">账户</li><li class="w22p">待结算总收入</li><li class="w22p">已结算总收入</li><li class="w22p">未结算总支出</li><li class="w22p">已结算总支出</li><li class="w22p">操作</li>
+            <li class="w12p">账户</li><li class="w12p">待结算总收入</li><li class="w12p">已结算总收入</li><li class="w12p">未结算总支出</li><li class="w12p">已结算总支出</li><li class="w22p">操作</li>
         </ul>  
     </div>
     <div class="table-row-group">
