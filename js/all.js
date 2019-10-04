@@ -104,17 +104,25 @@ function saverecord(type){
 	});
 }
 // 更新所有记录的状态
-function updateAllRecordState(form){
+function updateAllRecordState(form, state){
 	if($("input[type='checkbox']").is(':checked')==false){
-		alert("请选择需要删除的记录");
+		alert("请选择需要更新的记录");
 		return false;
 	}
-	var r=confirm("确定删除这些记录？");
+	if(state == 2){
+		msg = "确定要结算这些记录？";
+	}else if(state == 1){
+		msg = "确定回退这些记录为未结算";
+	}else{
+		alert("未知状态");
+		return false;
+	}
+	var r=confirm(msg);
 	if(r==true){
 		$.ajax({
 			type:"POST",
 			dataType: "json",
-			url:"date.php?action=deleterecordAll",
+			url:"date.php?action=updaterecordAll?state=" + state,
 			data: $("#del_all").serialize(),
 			success:function(result){
 				var data = '';
