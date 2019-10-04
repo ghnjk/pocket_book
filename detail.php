@@ -8,6 +8,7 @@ $s_endmoney = get('endmoney');
 $s_remark = get('remark');
 $s_bankid = get('bankid');
 $s_page = get('page','1');
+$s_state = get('state', '')
 
 $pageurl = "detail.php?1=1";
 if($s_classid != ""){
@@ -30,6 +31,9 @@ if($s_remark != ""){
 }
 if($s_bankid != ""){
     $pageurl = $pageurl."&bankid=".$s_bankid;
+}
+if($s_state != ""){
+    $pageurl = $pageurl."&state=".$s_state;
 }
 ?>
 
@@ -82,6 +86,11 @@ if($s_bankid != ""){
                     }
                     ?>
                 </select></label></p>
+                <p><lable for="state">状态：<select class="w180" name="state" id="state">
+                    <otion value="" <?php if($s_state==""){echo "selected";}?>>全部状态</otion>
+                    <option value="1" <?php if($s_state=="1"){echo "selected";}?> >未结算</option>
+                    <option value="2" <?php if($s_state=="2"){echo "selected";}?> >已结算</option>
+                </select></lable></p>
                 <p class="btn_div"><input type="submit" name="submit" value="查询" class="btn btn-primary" /></p>
                 </form>
             </div>
@@ -95,11 +104,11 @@ if($s_bankid != ""){
         <td bgcolor="#EBEBEB">汇总信息：</td>
         <td bgcolor="#EBEBEB">总收入：</td>
         <td bgcolor="#EBEBEB"><?php
-            echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,1);
+            echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid, $s_state,1);
         ?></td>
         <td bgcolor="#EBEBEB">总支出</td>
         <td bgcolor="#EBEBEB"><?php
-            echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,2);
+            echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid, $s_state,2);
         ?></td>
     </tr>
 </table>

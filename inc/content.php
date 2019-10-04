@@ -1,5 +1,5 @@
 <?php
-function estimate_sumary($start, $end, $uid, $bankid, $type=0, $classid=0){
+function estimate_sumary($start, $end, $uid, $bankid, $state="", $type=0, $classid=0){
 	global $conn;
 	$where = "where jiid='$uid'";
 	if($bankid != ""){
@@ -16,6 +16,9 @@ function estimate_sumary($start, $end, $uid, $bankid, $type=0, $classid=0){
 	}
 	if($classid!=0){
 		$where .= " and acclassid='$classid' ";
+	}
+	if($state != ""){
+		$where .= " and state = '$state' ";
 	}
 	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where;
 	$query = mysqli_query($conn,$sql);
