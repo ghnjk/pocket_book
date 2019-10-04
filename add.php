@@ -107,12 +107,12 @@ foreach($banklist as $myrow){
 
 <?php
 $s_classid = 'all';
-$s_starttime = $today;
-$s_endtime = $today;
+$s_starttime = '';
+$s_endtime = '';
 $s_startmoney = '';
 $s_endmoney = '';
 $s_remark = '';
-$s_bankid = '';
+$s_bankid = get("bankid");
 $s_page = '1';
 
 show_tab(1);
