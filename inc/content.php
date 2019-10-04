@@ -26,7 +26,7 @@ function total_account_sum($bankid, $state){
 	}else{
 		$out_money = "0.00";
 	}
-	return $money - $out_money;
+	return strval($money) - strval($out_money);
 }
 function estimate_sumary($start, $end, $uid, $bankid, $state="", $type=0, $classid=0){
 	global $conn;
@@ -57,7 +57,7 @@ function estimate_sumary($start, $end, $uid, $bankid, $state="", $type=0, $class
 	}else{
 		$money = "0.00";
 	}
-	echo $money;
+	return strval($money);
 }
 function state_day($start,$end,$uid,$type=0,$classid=0){
 	global $conn;
