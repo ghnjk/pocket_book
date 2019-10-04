@@ -148,6 +148,22 @@ if($getaction=="saverecord"){
 	$data = '{"code":"' .$success. '","error_msg":"' .$error_code.'","url":"' .$gotourl.'"}';
     echo json_encode($data);
 }
+if($getaction=="updateRecordState"){
+	header('Content-type:text/html;charset=utf-8');
+	$get_id = get("id");
+	$state = get("state")
+	if(empty($get_id) || !is_numeric($get_id) || empty($state)){
+		$error_code = "缺少参数或参数非法！";
+	}else{
+		$sql = "update ".TABLE."account set state = '".$state."' where acid='$get_id' and jiid='$userid'";
+		if(mysqli_query($conn,$sql)){
+			$error_code = "更新成功！";
+		}else{
+			$error_code = "更新失败！";
+		}
+	}				
+	echo $error_code;
+}
 if($getaction=="deleterecord"){
 	header('Content-type:text/html;charset=utf-8');
 	$get_id = get("id");

@@ -210,6 +210,24 @@ function saveEditRecord(){
 		}
 	});
 }
+// 更新记录状态 
+function updateRecordState(id, state){
+	geturl = "date.php?action=updateRecordState&id="+id+"&state" + state;
+	Ewin.confirm({ message: "确认要修改记录状态？" }).on(function (e) {
+		if (!e) {
+			return;
+		}
+		$.ajax({
+			type:"get",
+			url:geturl,
+			async:true,
+			success:function(data){
+				alert(data);
+				window.location.reload();
+			}
+		});
+	});
+}
 // 删除记录
 function delRecord(type,t){
 	if(type=="record"){
