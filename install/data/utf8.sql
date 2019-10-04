@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `#__account` (
   `jiid` int(8) NOT NULL COMMENT '记账用户ID',
   `zhifu` int(8) NOT NULL COMMENT '类型 1为收入 2为支出',
   `bankid` int(8) NOT NULL COMMENT '账户ID',
-  `state` int(8) NOT NULL  DEFAULT 1 COMMENT '记录状态 1 未结算 2 已结算'
+  `state` int(8) NOT NULL  DEFAULT 1 COMMENT '记录状态 1 未结算 2 已结算',
   PRIMARY KEY (`acid`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='账目表';
 CREATE TABLE IF NOT EXISTS `#__bank` (

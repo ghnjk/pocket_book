@@ -103,6 +103,32 @@ function saverecord(type){
 		}
 	});
 }
+// 更新所有记录的状态
+function updateAllRecordState(form){
+	if($("input[type='checkbox']").is(':checked')==false){
+		alert("请选择需要删除的记录");
+		return false;
+	}
+	var r=confirm("确定删除这些记录？");
+	if(r==true){
+		$.ajax({
+			type:"POST",
+			dataType: "json",
+			url:"date.php?action=deleterecordAll",
+			data: $("#del_all").serialize(),
+			success:function(result){
+				var data = '';
+				if(result != ''){
+					data = eval("("+result+")");
+				}
+				alert(data.error_msg);
+			},
+			error:function(){
+				console.log(result);
+			}
+		});
+	}
+}
 // 删除记录
 function deleterecordAll(form){
 	if($("input[type='checkbox']").is(':checked')==false){
