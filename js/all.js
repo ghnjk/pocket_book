@@ -123,7 +123,7 @@ function updateAllRecordState(form, state){
 			type:"POST",
 			dataType: "json",
 			url:"date.php?action=updaterecordAll&state=" + state.toString(),
-			data: $("#del_all").serialize(),
+			data: $("#update_all_record").serialize(),
 			success:function(result){
 				var data = '';
 				if(result != ''){

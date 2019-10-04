@@ -115,7 +115,7 @@ if($s_state != ""){
 
 <?php   
     //show_tab(1);
-    echo "<form name='mark_all_to_clean' id='mark_all_to_clean' method='post' onsubmit='return updateAllRecordState(this, 2);'>";
+    echo "<form name='update_all_record' id='update_all_record' method='post' onsubmit='return updateAllRecordState(this, 2);'>";
     show_tab(6);
         $Prolist = itlu_page_search($userid,20,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid, $s_state);
         $thiscount = 0;
