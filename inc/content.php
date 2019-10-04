@@ -93,7 +93,7 @@ function show_type($classtype,$uid){
     }
     return $resArr;
 }
-function itlu_page_search($uid,$pagesize=20,$page=1,$classid,$starttime="",$endtime="",$startmoney="",$endmoney="",$remark="",$bankid=""){
+function itlu_page_search($uid,$pagesize=20,$page=1,$classid,$starttime="",$endtime="",$startmoney="",$endmoney="",$remark="",$bankid="", $state=""){
 	global $conn;
 	$nums = record_num_query($uid,$classid,$starttime,$endtime,$startmoney,$endmoney,$remark,$bankid);
 	$pages=ceil($nums/$pagesize);
@@ -128,6 +128,9 @@ function itlu_page_search($uid,$pagesize=20,$page=1,$classid,$starttime="",$endt
 	}
 	if(!empty($remark)){
 		$sql .= " and acremark like '%".$remark."%' ";
+	}
+	if (!empty($state)){
+		$sql .= " and state '$state' ";
 	}
 	$sql .= "where a.jiid = '$uid' and ";
 	$sql .= "a.acid in (select acid from ".TABLE."account where jiid = '$uid') order by a.actime desc limit $kaishi,$pagesize";

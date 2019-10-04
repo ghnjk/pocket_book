@@ -87,7 +87,7 @@ if($s_state != ""){
                     ?>
                 </select></label></p>
                 <p><lable for="state">状态：<select class="w180" name="state" id="state">
-                    <otion value="" <?php if($s_state==""){echo "selected";}?>>全部状态</otion>
+                    <option value="" <?php if($s_state==""){echo "selected";}?>>全部状态</option>
                     <option value="1" <?php if($s_state=="1"){echo "selected";}?> >未结算</option>
                     <option value="2" <?php if($s_state=="2"){echo "selected";}?> >已结算</option>
                 </select></lable></p>
@@ -117,7 +117,7 @@ if($s_state != ""){
     //show_tab(1);
     echo "<form name='mark_all_to_clean' id='mark_all_to_clean' method='post' onsubmit='return updateAllRecordState(this, 2);'>";
     show_tab(6);
-        $Prolist = itlu_page_search($userid,20,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid);
+        $Prolist = itlu_page_search($userid,20,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid, $s_state);
         $thiscount = 0;
         foreach($Prolist as $row){
             if($row['zhifu']==1){
