@@ -144,9 +144,9 @@ show_tab(3);
 ?>
 <script>
 $("#stat").html("合计： 支出<strong class='red'><?php
-	echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,2));
+	echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,2);
 ?></strong>，收入<strong class='green'><?php 
-	echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,1));
+	echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,1);
 ?></strong>");
 </script>
 <?php include_once("footer.php");?>
