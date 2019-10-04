@@ -29,7 +29,7 @@ if($getaction=="login"){
 					setcookie("userinfo", $userinfo, time()+86400*3);
 					$success = "1";
 					$error_code = "登录成功！";
-					$gotourl = "add.php";
+					$gotourl = "overview.php";
 				}
 			}else{
 				$error_code = "用户名或密码错误！<a href='?action=getpassword'>忘记密码？</a>";
