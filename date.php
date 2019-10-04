@@ -189,7 +189,7 @@ if($getaction=="deleterecordAll"){
     echo json_encode($data);
 }
 if($getaction == "updaterecordAll"){
-	if(isset($_POST["del_id"]) && $_POST["del_id"] != "" && get("state") != ""){
+	if(isset($_POST["del_id"]) && $_POST["del_id"] != ""){
 		$del_id = implode(",",$_POST['del_id']);
 		$sql = "update ".TABLE."account set state = '".get("state")."' where jiid='$userid' and acid in ($del_id)";
 		if (mysqli_query($conn,$sql)){
