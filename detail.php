@@ -97,7 +97,7 @@ if($s_bankid != ""){
         <td bgcolor="#EBEBEB"><?php
             echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,1));
         ?></td>
-        <td bgcolor="#EBEBEB">总指出：</td>
+        <td bgcolor="#EBEBEB">总支出</td>
         <td bgcolor="#EBEBEB"><?php
             echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,2));
         ?></td>
