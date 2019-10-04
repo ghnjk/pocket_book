@@ -8,7 +8,7 @@ $s_endmoney = get('endmoney');
 $s_remark = get('remark');
 $s_bankid = get('bankid');
 $s_page = get('page','1');
-$s_state = get('state', '')
+$s_state = get('state', '');
 
 $pageurl = "detail.php?1=1";
 if($s_classid != ""){
