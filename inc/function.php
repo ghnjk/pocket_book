@@ -321,7 +321,7 @@ function isMobile(){
 
 function show_money($money){
 	$formatter = new NumberFormatter('en_PH',  NumberFormatter::CURRENCY);
-	return $formatter->formatCurrency($money, 'PHP'), PHP_EOL;
+	return $formatter->formatCurrency($money, 'PHP');
 }
 
 include_once("content.php");
