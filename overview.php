@@ -5,7 +5,7 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
 <div class="table">
     <div class="table-header-group">  
         <ul class="table-row">  
-            <li class="w12p">ÕË»§</li><li class="w22p">Óà¶î</li><li class="w22p">¼ÇÕË</li>
+            <li class="w12p">è´¦æˆ·</li><li class="w22p">ä½™é¢</li><li class="w22p">è®°è´¦</li>
         </ul>  
     </div>
     <div class="table-row-group">
@@ -13,7 +13,7 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
             <ul class="table-row">
                 <li><?php echo $item["bankname"] ?></li>
                 <li><?php echo $item["balancemoney"] ?></li>
-                <li><a href="add.php?bankname=<?php echo $item["bankname"] ?>">¼ÇÕË</a></li>
+                <li><a href="add.php?bankname=<?php echo $item["bankname"] ?>">è®°è´¦</a></li>
             </ul>
         <?php } ?>
     </div>
