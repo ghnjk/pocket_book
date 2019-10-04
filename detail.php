@@ -89,6 +89,17 @@ if($s_bankid != ""){
     </tr>
 </table>
 
+
+<table align="left" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor='#B3B3B3' class='table table-striped table-bordered'>
+    <tr>
+        <td bgcolor="#EBEBEB">汇总信息：</td>
+        <td bgcolor="#EBEBEB">总收入：</td>
+        <td bgcolor="#EBEBEB">100.00</td>
+        <td bgcolor="#EBEBEB">总指出：</td>
+        <td bgcolor="#EBEBEB">200.00</td>
+    </tr>
+</table>
+
 <?php   
     //show_tab(1);
     echo "<form name='del_all' id='del_all' method='post' onsubmit='return deleterecordAll(this);'>";
