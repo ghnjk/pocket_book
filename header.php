@@ -30,10 +30,11 @@ loginchk($userid);
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="add.php">记一笔</a>
+                        <a class="navbar-brand" href="overview.php">概览</a>
                     </div>
                     <div class="collapse navbar-collapse" id="example-navbar-collapse">
                         <ul class="nav navbar-nav">
+                            <a class="navbar-brand" href="add.php">记一笔</a>
                             <li><a href="stat.php" <?php show_menu_cur("stat.php");?>>近期统计</a></li>
                             <li><a href="annual_stat.php" <?php show_menu_cur("annual_stat.php");?>>全年统计</a></li>
                             <li><a href="classify.php" <?php show_menu_cur("classify.php");?>>分类编辑</a></li>
