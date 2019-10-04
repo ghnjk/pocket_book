@@ -107,7 +107,7 @@ if($s_bankid != ""){
 <?php   
     //show_tab(1);
     // echo "<form name='del_all' id='del_all' method='post' onsubmit='return deleterecordAll(this);'>";
-    show_tab(2);
+    show_tab(6);
         $Prolist = itlu_page_search($userid,20,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid);
         $thiscount = 0;
         foreach($Prolist as $row){
