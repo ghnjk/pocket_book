@@ -106,7 +106,7 @@ if($s_bankid != ""){
 
 <?php   
     //show_tab(1);
-    // echo "<form name='del_all' id='del_all' method='post' onsubmit='return deleterecordAll(this);'>";
+    echo "<form name='mark_all_to_clean' id='mark_all_to_clean' method='post' onsubmit='return updateAllRecordState(this, 2);'>";
     show_tab(6);
         $Prolist = itlu_page_search($userid,20,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid);
         $thiscount = 0;
@@ -122,6 +122,14 @@ if($s_bankid != ""){
                 echo "<li><i class='noshow'>".$word.">></i>".$row['classname']."</li>";
                 echo "<li>".bankname($row['bankid'],$userid,"默认账户")."</li>";
                 echo "<li class='t_a_r'>".show_money($row['acmoney'])."</li>";
+                if($row["state"] == 2){
+                    $state = "已结算";
+                }else if($row["state"] == 1){
+                    $state = "未结算";
+                }else{
+                    $state = "未知状态";
+                }
+                echo "<li>".$state."</li>";
                 if(isMobile()){
                     echo "<li>".date("m-d",$row['actime'])."</li>";
                 }else{
@@ -129,7 +137,7 @@ if($s_bankid != ""){
                 }
                 echo "<li>".$row['acremark']."</li>";
                 //echo "<li><a href='javascript:' onclick='editRecord(this,\"myModal\")' data-info='{\"id\":\"".$row["acid"]."\",\"money\":\"".$row["acmoney"]."\",\"zhifu\":\"".$row["zhifu"]."\",\"bankid\":\"".$row["bankid"]."\",\"addtime\":\"".date("Y-m-d H:i",$row['actime'])."\",\"remark\":".json_encode($row["acremark"]).",\"classname\":".json_encode($word." -- ".$row["classname"])."}'><img src='img/edit.png' /></a><a class='ml8' href='javascript:' onclick='delRecord(\"record\",".$row['acid'].");'><img src='img/del.png' /></a></li>";
-                //echo "<li class='noshow'><input name='del_id[]' type='checkbox' id='del_id[]' value=".$row['acid']." /></li>";
+                echo "<li class='noshow'><input name='del_id[]' type='checkbox' id='del_id[]' value=".$row['acid']." /></li>";
             echo "</ul>";
             $thiscount ++ ;
         }   
