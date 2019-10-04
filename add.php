@@ -1,7 +1,7 @@
 <?php include_once("header.php");?>
 <?php
 //账户列表
-$banklist = db_list("bank","where userid='$userid'","order by bankid asc");
+$banklist = db_list("bank","where userid='$userid' and bankname='".get("bankname")."'","order by bankid asc");
 $banklist_show = '';
 foreach($banklist as $myrow){
 	$banklist_show = $banklist_show."<option value='$myrow[bankid]'>".$myrow['bankname']."</option>";
@@ -37,7 +37,9 @@ foreach($banklist as $myrow){
 			<div class="input-group">
 				<span class="input-group-label">账户</span>
 				<select class="form-field" name="bankid" id="bankid">
-				<option value="0">默认账户</option>
+				<option value="<?php echo $banklist[0]["bankid"];?>">
+					<?php echo $banklist[0]["bankname"]; ?>
+				</option>
                 <?php echo $banklist_show;?>
 				</select>
 			</div>
