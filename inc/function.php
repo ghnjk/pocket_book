@@ -319,6 +319,10 @@ function isMobile(){
     return false;
 }
 
+function show_money($money){
+	return money_format("%.2n", $money);
+}
+
 include_once("content.php");
 include_once("safe.php");
 if(PHP7){

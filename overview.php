@@ -12,7 +12,7 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
         <?php foreach($banklist as $item){ ?>
             <ul class="table-row">
                 <li><?php echo $item["bankname"] ?></li>
-                <li><?php echo $item["balancemoney"] ?></li>
+                <li><?php echo show_money($item["balancemoney"]); ?></li>
                 <li><a href="add.php?bankname=<?php echo $item["bankname"] ?>">记账</a></li>
             </ul>
         <?php } ?>
