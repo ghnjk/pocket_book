@@ -98,7 +98,7 @@ if($getaction=="addrecord"){
 	}elseif(!is_numeric($money)){
 		$error_code = "金额非法！";
 	}else{
-		$sql = "insert into ".TABLE."account (acmoney, acclassid, actime, acremark, jiid, zhifu, bankid) values ('$money', '$classid', '$addtime', '$remark', '$userid', '$zhifu', '$bankid')";
+		$sql = "insert into ".TABLE."account (acmoney, acclassid, actime, acremark, jiid, zhifu, bankid, state) values ('$money', '$classid', '$addtime', '$remark', '$userid', '$zhifu', '$bankid', 1)";
 		$query = mysqli_query($conn,$sql);
 		if($query){
 			if($bankid>0){money_int_out($bankid,$money,$zhifu);}
