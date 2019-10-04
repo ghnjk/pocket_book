@@ -130,7 +130,7 @@ function itlu_page_search($uid,$pagesize=20,$page=1,$classid,$starttime="",$endt
 		$sql .= " and acremark like '%".$remark."%' ";
 	}
 	if (!empty($state)){
-		$sql .= " and state '$state' ";
+		$sql .= " and state = '$state' ";
 	}
 	$sql .= "where a.jiid = '$uid' and ";
 	$sql .= "a.acid in (select acid from ".TABLE."account where jiid = '$uid') order by a.actime desc limit $kaishi,$pagesize";
