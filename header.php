@@ -30,7 +30,7 @@ loginchk($userid);
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="overview.php">概览</a>
+                        <a class="navbar-brand" href="overview.php">我的账本</a>
                     </div>
                     <div class="collapse navbar-collapse" id="example-navbar-collapse">
                         <ul class="nav navbar-nav">

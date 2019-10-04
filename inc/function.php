@@ -320,7 +320,7 @@ function isMobile(){
 }
 
 function show_money($money){
-	return  number_format($money, 2, ',', ' ');
+	return  number_format($money, 2, '.', ',');
 }
 
 include_once("content.php");
