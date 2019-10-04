@@ -99,14 +99,14 @@ if($s_bankid != ""){
         ?></td>
         <td bgcolor="#EBEBEB">总支出</td>
         <td bgcolor="#EBEBEB"><?php
-            echo (estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,2));
+            echodelestimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid,2));
         ?></td>
     </tr>
 </table>
 
 <?php   
     //show_tab(1);
-    echo "<form name='del_all' id='del_all' method='post' onsubmit='return deleterecordAll(this);'>";
+  //  echo "<form name='del_all' id='del_all' method='post' onsubmit='return deleterecordAll(this);'>";
     show_tab(2);
         $Prolist = itlu_page_search($userid,20,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid);
         $thiscount = 0;
@@ -128,8 +128,8 @@ if($s_bankid != ""){
                     echo "<li>".date("Y-m-d",$row['actime'])."</li>";
                 }
                 echo "<li>".$row['acremark']."</li>";
-                echo "<li><a href='javascript:' onclick='editRecord(this,\"myModal\")' data-info='{\"id\":\"".$row["acid"]."\",\"money\":\"".$row["acmoney"]."\",\"zhifu\":\"".$row["zhifu"]."\",\"bankid\":\"".$row["bankid"]."\",\"addtime\":\"".date("Y-m-d H:i",$row['actime'])."\",\"remark\":".json_encode($row["acremark"]).",\"classname\":".json_encode($word." -- ".$row["classname"])."}'><img src='img/edit.png' /></a><a class='ml8' href='javascript:' onclick='delRecord(\"record\",".$row['acid'].");'><img src='img/del.png' /></a></li>";
-                echo "<li class='noshow'><input name='del_id[]' type='checkbox' id='del_id[]' value=".$row['acid']." /></li>";
+                //echo "<li><a href='javascript:' onclick='editRecord(this,\"myModal\")' data-info='{\"id\":\"".$row["acid"]."\",\"money\":\"".$row["acmoney"]."\",\"zhifu\":\"".$row["zhifu"]."\",\"bankid\":\"".$row["bankid"]."\",\"addtime\":\"".date("Y-m-d H:i",$row['actime'])."\",\"remark\":".json_encode($row["acremark"]).",\"classname\":".json_encode($word." -- ".$row["classname"])."}'><img src='img/edit.png' /></a><a class='ml8' href='javascript:' onclick='delRecord(\"record\",".$row['acid'].");'><img src='img/del.png' /></a></li>";
+                //echo "<li class='noshow'><input name='del_id[]' type='checkbox' id='del_id[]' value=".$row['acid']." /></li>";
             echo "</ul>";
             $thiscount ++ ;
         }   
