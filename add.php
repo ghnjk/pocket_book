@@ -1,7 +1,7 @@
 <?php include_once("header.php");?>
 <?php
 //账户列表
-$banklist = db_list("bank","where userid='$userid' and bankname='".get("bankname")."'","order by bankid asc");
+$banklist = db_list("bank","where userid='$userid' and bankid='".get("bankid")."'","order by bankid asc");
 $banklist_show = '';
 foreach($banklist as $myrow){
 	$banklist_show = $banklist_show."<option value='$myrow[bankid]'>".$myrow['bankname']."</option>";

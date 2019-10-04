@@ -105,9 +105,9 @@ if($getaction=="addrecord"){
 			$success = "1";
 			$error_code = "保存成功！";
 			if($zhifu=="1"){
-				$gotourl = "add.php?action=income";
+				$gotourl = "add.php?action=income&bankid=".$bankid;
 			}else{
-				$gotourl = "add.php?action=pay";
+				$gotourl = "add.php?action=pay&bankid".$bankid;
 			}			
 		}else{
 			$error_code = "保存失败！";

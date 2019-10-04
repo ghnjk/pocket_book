@@ -13,7 +13,7 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
             <ul class="table-row">
                 <li><?php echo $item["bankname"] ?></li>
                 <li><?php echo show_money($item["balancemoney"]); ?></li>
-                <li><a href="add.php?bankname=<?php echo $item["bankname"] ?>">记账</a></li>
+                <li><a href="add.php?bankid=<?php echo $item["bankid"] ?>">记账</a></li>
             </ul>
         <?php } ?>
     </div>
