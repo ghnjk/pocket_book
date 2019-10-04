@@ -320,7 +320,8 @@ function isMobile(){
 }
 
 function show_money($money){
-	return money_format("%.2n", $money);
+	$formatter = new NumberFormatter('en_PH',  NumberFormatter::CURRENCY);
+	return $formatter->formatCurrency($money, 'PHP'), PHP_EOL;
 }
 
 include_once("content.php");

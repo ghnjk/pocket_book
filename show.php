@@ -70,7 +70,6 @@ if($s_bankid != ""){
 				<p><label for="remark">备注：<input class="w180" type="text" name="remark" id="remark" size="30" value="<?php echo $s_remark;?>"></label></p>
 				<p><label for="bankid">账户：<select class="w180" name="bankid" id="bankid">
 					<option value="" <?php if($s_bankid==""){echo "selected";}?>>全部账户</option>
-					<option value="0" <?php if($s_bankid=="0"){echo "selected";}?>>默认账户</option>
 					<?php
 					$banklist = db_list("bank","where userid='$userid'","order by bankid asc");
 					foreach($banklist as $myrow){
