@@ -9,7 +9,7 @@ function total_account_sum($bankid, $state){
 		$where .= " and state = '$state' ";
 	}
 	// 收入
-	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 1"
+	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 1";
 	$query = mysqli_query($conn,$sql);
 	$row = mysqli_fetch_array($query);
 	if($row['total']){
@@ -18,7 +18,7 @@ function total_account_sum($bankid, $state){
 		$money = "0.00";
 	}
 	// 指出
-	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 2"
+	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 2";
 	$query = mysqli_query($conn,$sql);
 	$row = mysqli_fetch_array($query);
 	if($row['total']){
