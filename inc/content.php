@@ -1,4 +1,33 @@
 <?php
+function total_account_sum($bankid, $state){
+	global $conn;
+	$where = "where jiid='$uid'";
+	if($bankid != ""){
+		$where .= " and bankid = '$bankid'";
+	}
+	if($state != ""){
+		$where .= " and state = '$state' ";
+	}
+	// 收入
+	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 1"
+	$query = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_array($query);
+	if($row['total']){
+		$money = $row['total'];
+	}else{
+		$money = "0.00";
+	}
+	// 指出
+	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where." and zhifu = 2"
+	$query = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_array($query);
+	if($row['total']){
+		$out_money = $row['total'];
+	}else{
+		$out_money = "0.00";
+	}
+	return $money - $out_money;
+}
 function estimate_sumary($start, $end, $uid, $bankid, $state="", $type=0, $classid=0){
 	global $conn;
 	$where = "where jiid='$uid'";

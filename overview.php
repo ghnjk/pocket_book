@@ -5,14 +5,15 @@ $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
 <div class="table">
     <div class="table-header-group">  
         <ul class="table-row">  
-            <li class="w12p">账户</li><li class="w22p">余额</li><li class="w22p">操作</li>
+            <li class="w12p">账户</li><li class="w22p">待结算金额</li><li class="w22p">已结算金额</li><li class="w22p">操作</li>
         </ul>  
     </div>
     <div class="table-row-group">
         <?php foreach($banklist as $item){ ?>
             <ul class="table-row">
                 <li><?php echo $item["bankname"] ?></li>
-                <li><?php echo show_money($item["balancemoney"]); ?></li>
+                <li><?php echo show_money( total_account_sum($item["bankid"], 1) ); ?></li>
+                <li><?php echo show_money( total_account_sum($item["bankid"], 2) ); ?></li>
                 <li>
                     <a href="add.php?bankid=<?php echo $item["bankid"] ?>">记账</a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
