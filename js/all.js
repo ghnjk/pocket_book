@@ -117,7 +117,7 @@ function updateAllRecordState(form, state){
 		alert("未知状态");
 		return false;
 	}
-	url:"date.php?action=updaterecordAll?state=" + state.toString();
+	url="date.php?action=updaterecordAll?state=" + state.toString();
 	alert(url);
 	var r=confirm(msg);
 	if(r==true){
