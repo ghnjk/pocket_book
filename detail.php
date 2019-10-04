@@ -1,5 +1,5 @@
 <?php include_once("header.php");
-//============À—À˜≤Œ ˝¥¶¿Ì================
+//============ÊêúÁ¥¢ÂèÇÊï∞Â§ÑÁêÜ================
 $s_classid = get('classid','all');
 $s_starttime = get('starttime');
 $s_endtime = get('endtime');
@@ -34,42 +34,42 @@ if($s_bankid != ""){
 ?>
 
 <table align="left" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor='#B3B3B3' class='table table-striped table-bordered'>
-    <tr><td bgcolor="#EBEBEB">’Àªß√˜œ∏£∫</td></tr>
+    <tr><td bgcolor="#EBEBEB">Ë¥¶Êà∑ÊòéÁªÜÔºö</td></tr>
     <tr><td bgcolor="#FFFFFF">
             <div class="search_box">
                 <form id="s_form" name="s_form" method="get">
-                <p><label for="classid">∑÷¿‡£∫<select class="w180" name="classid" id="classid">
-                    <option value="all" <?php if($s_classid=="all"){echo "selected";}?>>»´≤ø∑÷¿‡</option>
-                    <option value="pay" <?php if($s_classid=="pay"){echo "selected";}?>>====÷ß≥ˆ====</option>
+                <p><label for="classid">ÂàÜÁ±ªÔºö<select class="w180" name="classid" id="classid">
+                    <option value="all" <?php if($s_classid=="all"){echo "selected";}?>>ÂÖ®ÈÉ®ÂàÜÁ±ª</option>
+                    <option value="pay" <?php if($s_classid=="pay"){echo "selected";}?>>====ÊîØÂá∫====</option>
                     <?php
                     $pay_type_list = show_type(2,$userid);
                     foreach($pay_type_list as $myrow){
                         if($myrow['classid']==$s_classid){
-                            echo "<option value='$myrow[classid]' selected>÷ß≥ˆ>>".$myrow['classname']."</option>";
+                            echo "<option value='$myrow[classid]' selected>ÊîØÂá∫>>".$myrow['classname']."</option>";
                         }else{
-                            echo "<option value='$myrow[classid]'>÷ß≥ˆ>>".$myrow['classname']."</option>";
+                            echo "<option value='$myrow[classid]'>ÊîØÂá∫>>".$myrow['classname']."</option>";
                         }                       
                     }
                     ?>
-                    <option value="income" <?php if($s_classid=="income"){echo "selected";}?>>==== ’»Î====</option>
+                    <option value="income" <?php if($s_classid=="income"){echo "selected";}?>>====Êî∂ÂÖ•====</option>
                     <?php
                     $pay_type_list = show_type(1,$userid);
                     foreach($pay_type_list as $myrow){
                         if($myrow['classid']==$s_classid){
-                            echo "<option value='$myrow[classid]' selected> ’»Î -- ".$myrow['classname']."</option>";
+                            echo "<option value='$myrow[classid]' selected>Êî∂ÂÖ• -- ".$myrow['classname']."</option>";
                         }else{
-                            echo "<option value='$myrow[classid]'> ’»Î -- ".$myrow['classname']."</option>";
+                            echo "<option value='$myrow[classid]'>Êî∂ÂÖ• -- ".$myrow['classname']."</option>";
                         }
                     }
                     ?>
                 </select></label></p>
                 
-                <p><label for="time"> ±º‰£∫<input class="w100" value="<?php echo $s_starttime;?>" type="text" name="starttime" id="starttime" onClick="WdatePicker({maxDate:'#F{$dp.$D(\'endtime\')||\'<?php echo $today;?>\'}'})" />-<input class="w100" type="text" name="endtime" value="<?php if($s_endtime==""){echo $today;}else{echo $s_endtime;}?>" id="endtime" onClick="WdatePicker({minDate:'#F{$dp.$D(\'starttime\')}',maxDate:'%y-%M-%d'})" /></label></p>
+                <p><label for="time">Êó∂Èó¥Ôºö<input class="w100" value="<?php echo $s_starttime;?>" type="text" name="starttime" id="starttime" onClick="WdatePicker({maxDate:'#F{$dp.$D(\'endtime\')||\'<?php echo $today;?>\'}'})" />-<input class="w100" type="text" name="endtime" value="<?php if($s_endtime==""){echo $today;}else{echo $s_endtime;}?>" id="endtime" onClick="WdatePicker({minDate:'#F{$dp.$D(\'starttime\')}',maxDate:'%y-%M-%d'})" /></label></p>
                 
-                <p><label for="money">Ω∂Ó£∫<input class="w100" value="<?php echo $s_startmoney;?>" type="number" step="0.01" name="startmoney" id="startmoney" size="10" maxlength="8" onkeyup="value=value.replace(/[^\d{1,}\.\d{1,}|\d{1,}]/g,'')" />-<input class="w100" value="<?php echo $s_endmoney;?>" type="number" step="0.01" name="endmoney" id="endmoney" size="10" maxlength="8" onkeyup="value=value.replace(/[^\d{1,}\.\d{1,}|\d{1,}]/g,'')" /></label></p>                
-                <p><label for="remark">±∏◊¢£∫<input class="w180" type="text" name="remark" id="remark" size="30" value="<?php echo $s_remark;?>"></label></p>
-                <p><label for="bankid">’Àªß£∫<select class="w180" name="bankid" id="bankid">
-                    <option value="" <?php if($s_bankid==""){echo "selected";}?>>»´≤ø’Àªß</option>
+                <p><label for="money">ÈáëÈ¢ùÔºö<input class="w100" value="<?php echo $s_startmoney;?>" type="number" step="0.01" name="startmoney" id="startmoney" size="10" maxlength="8" onkeyup="value=value.replace(/[^\d{1,}\.\d{1,}|\d{1,}]/g,'')" />-<input class="w100" value="<?php echo $s_endmoney;?>" type="number" step="0.01" name="endmoney" id="endmoney" size="10" maxlength="8" onkeyup="value=value.replace(/[^\d{1,}\.\d{1,}|\d{1,}]/g,'')" /></label></p>                
+                <p><label for="remark">Â§áÊ≥®Ôºö<input class="w180" type="text" name="remark" id="remark" size="30" value="<?php echo $s_remark;?>"></label></p>
+                <p><label for="bankid">Ë¥¶Êà∑Ôºö<select class="w180" name="bankid" id="bankid">
+                    <option value="" <?php if($s_bankid==""){echo "selected";}?>>ÂÖ®ÈÉ®Ë¥¶Êà∑</option>
                     <?php
                     $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
                     foreach($banklist as $myrow){
@@ -81,7 +81,7 @@ if($s_bankid != ""){
                     }
                     ?>
                 </select></label></p>
-                <p class="btn_div"><input type="submit" name="submit" value="≤È—Ø" class="btn btn-primary" /></p>
+                <p class="btn_div"><input type="submit" name="submit" value="Êü•ËØ¢" class="btn btn-primary" /></p>
                 </form>
             </div>
         </td>
@@ -97,14 +97,14 @@ if($s_bankid != ""){
         foreach($Prolist as $row){
             if($row['zhifu']==1){
                 $fontcolor = "green";
-                $word = " ’»Î";
+                $word = "Êî∂ÂÖ•";
             }else{
                 $fontcolor = "red";
-                $word = "÷ß≥ˆ";
+                $word = "ÊîØÂá∫";
             }
             echo "<ul class=\"table-row ".$fontcolor."\">";
                 echo "<li><i class='noshow'>".$word.">></i>".$row['classname']."</li>";
-                echo "<li>".bankname($row['bankid'],$userid,"ƒ¨»œ’Àªß")."</li>";
+                echo "<li>".bankname($row['bankid'],$userid,"ÈªòËÆ§Ë¥¶Êà∑")."</li>";
                 echo "<li class='t_a_r'>".$row['acmoney']."</li>";
                 if(isMobile()){
                     echo "<li>".date("m-d",$row['actime'])."</li>";
@@ -121,14 +121,14 @@ if($s_bankid != ""){
     show_tab(3);    
 ?>
     <?php 
-    //œ‘ æ“≥¬Î
+    //ÊòæÁ§∫È°µÁ†Å
     $allcount = record_num_query($userid,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid);
     $pages = ceil($allcount/20);    
     if($pages > 1){?>
     <div class="page"><?php getPageHtml($s_page,$pages,$pageurl."&",$thiscount,$allcount);?></div>
     <?php }?>
 <?php
-//»°’Àªß¡–±Ì
+//ÂèñË¥¶Êà∑ÂàóË°®
 $banklist = db_list("bank","where userid='$userid'","order by bankid asc");
 $banklist_show = '';
 foreach($banklist as $myrow){
@@ -136,7 +136,7 @@ foreach($banklist as $myrow){
 }
 ?>
 <?php include_once("footer.php");?>
-<!--// ±‡º≠-->
+<!--// ÁºñËæë-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <form id="edit-form" name="edit-form" method="post">
@@ -146,37 +146,37 @@ foreach($banklist as $myrow){
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel"> ˝æ›–ﬁ∏ƒ</h4>
+                <h4 class="modal-title" id="myModalLabel">Êï∞ÊçÆ‰øÆÊîπ</h4>
             </div>
             <div class="modal-body">                
                 <div class="form-group">
-                    <label for="edit-money">Ω∂Ó</label>
-                    <input type="number" step="0.01" name="edit-money" class="form-control" id="edit-money" placeholder=" ’÷ßΩ∂Ó" required="«Î ‰»Î ’÷ßΩ∂Ó" />                    
+                    <label for="edit-money">ÈáëÈ¢ù</label>
+                    <input type="number" step="0.01" name="edit-money" class="form-control" id="edit-money" placeholder="Êî∂ÊîØÈáëÈ¢ù" required="ËØ∑ËæìÂÖ•Êî∂ÊîØÈáëÈ¢ù" />                    
                 </div>
                 <div class="form-group">
-                    <label for="edit-classtype">∑÷¿‡</label>
+                    <label for="edit-classtype">ÂàÜÁ±ª</label>
                     <input type="text" name="edit-classtype" class="form-control" id="edit-classtype" readonly="readonly" />
                 </div>
                 <div class="form-group">
-                    <label for="edit-remark">±∏◊¢</label>
+                    <label for="edit-remark">Â§áÊ≥®</label>
                     <input type="text" name="edit-remark" class="form-control" id="edit-remark" maxlength="20" />
                 </div>
                 <div class="form-group">
-                    <label for="edit-bankid">’ ªß</label>
+                    <label for="edit-bankid">Â∏êÊà∑</label>
                     <select name="edit-bankid" id="edit-bankid" class="form-control">
-                        <option value='0'>ƒ¨»œ’Àªß</option>
+                        <option value='0'>ÈªòËÆ§Ë¥¶Êà∑</option>
                         <?php echo $banklist_show;?>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="edit-time"> ±º‰</label>
+                    <label for="edit-time">Êó∂Èó¥</label>
                     <input type="text" name="edit-time" class="form-control" id="edit-time" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm',maxDate:'<?php echo $today;?>'})" />
                 </div>
             </div>
             <div class="modal-footer">
                 <div id="error_show" class="footer-tips"></div>
-                <button type="button" class="btn btn-default" data-dismiss="modal">πÿ±’</button>
-                <button type="button" id="btn_submit_save_edit" class="btn btn-primary">±£¥Ê</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">ÂÖ≥Èó≠</button>
+                <button type="button" id="btn_submit_save_edit" class="btn btn-primary">‰øùÂ≠ò</button>
             </div>
         </div>
         </form>
