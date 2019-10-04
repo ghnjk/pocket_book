@@ -143,7 +143,11 @@ foreach($Prolist as $row){
 show_tab(3);
 ?>
 <script>
-$("#stat").html("合计： 支出<strong class='red'><?php echo state_day($today,$today,$userid,2);?></strong>，收入<strong class='green'><?php echo state_day($today,$today,$userid,1);?></strong>");
+$("#stat").html("合计： 支出<strong class='red'><?php
+	echo estimate_sumary($s_starttime,$s_endtime,$userid, $bankid,2);
+?></strong>，收入<strong class='green'><?php 
+	echo estimate_sumary($s_starttime,$s_endtime,$userid, $bankid,1);
+?></strong>");
 </script>
 <?php include_once("footer.php");?>
 <!--// 编辑-->

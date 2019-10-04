@@ -1,4 +1,32 @@
 <?php
+function estimate_sumary($start, $end, $uid, $bankid, $type=0, $classid=0){
+	global $conn;
+	$where = "where jiid='$uid'";
+	if($bankid != ""){
+		$where .= " and bankid = '$bankid'";
+	}
+	if($start != ""){
+		$where .= " and actime >".strtotime($start." 00:00:00");
+	}
+	if($end != ""){
+		$where .= " and actime <".strtotime($end." 23:59:59");
+	}
+	if($type!=0){
+		$where .= " and zhifu='$type' ";
+	}
+	if($classid!=0){
+		$where .= " and acclassid='$classid' ";
+	}
+	$sql = "SELECT sum(acmoney) as total FROM ".TABLE."account ".$where;
+	$query = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_array($query);
+	if($row['total']){
+		$money = $row['total'];
+	}else{
+		$money = "0.00";
+	}
+	echo $money;
+}
 function state_day($start,$end,$uid,$type=0,$classid=0){
 	global $conn;
 	if($start==""){$start=date("Y-m-d");}
