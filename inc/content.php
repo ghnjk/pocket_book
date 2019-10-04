@@ -1,7 +1,7 @@
 <?php
 function total_account_sum($bankid, $state){
 	global $conn;
-	$where = "where ";
+	$where = "where 1=1 ";
 	if($bankid != ""){
 		$where .= " and bankid = '$bankid'";
 	}
