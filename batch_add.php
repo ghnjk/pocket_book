@@ -43,9 +43,9 @@ if (isset($_POST['submit'])){
 		}
 	}
 	$message = "成功写入：".$ok_count."条";
-	if($no_ok_count>0){
-		$message = $message."，不符合条件（或空白）：".$no_ok_count."条";
-	}
+	// if($no_ok_count>0){
+	// 	$message = $message."，不符合条件（或空白）：".$no_ok_count."条";
+	// }
 	if($error_count>0){
 		$message = $message."，失败：".$error_count."条";
 	}
