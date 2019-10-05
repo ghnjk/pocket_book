@@ -147,7 +147,7 @@ if($s_state != ""){
                 echo "<li>".$row['acremark']."</li>";
                 //echo "<li><a href='javascript:' onclick='editRecord(this,\"myModal\")' data-info='{\"id\":\"".$row["acid"]."\",\"money\":\"".$row["acmoney"]."\",\"zhifu\":\"".$row["zhifu"]."\",\"bankid\":\"".$row["bankid"]."\",\"addtime\":\"".date("Y-m-d H:i",$row['actime'])."\",\"remark\":".json_encode($row["acremark"]).",\"classname\":".json_encode($word." -- ".$row["classname"])."}'><img src='img/edit.png' /></a>
                 //<a class='ml8' href='javascript:' onclick='delRecord(\"record\",".$row['acid'].");'><img src='img/del.png' /></a></li>";
-                echo "<li class='noshow'><input name='del_id[]' type='checkbox' id='del_id[]' value=".$row['acid']." /></li>";
+                echo "<li class=''><input name='del_id[]' type='checkbox' id='del_id[]' value=".$row['acid']." /></li>";
                 echo "<li>";
                 if($row["state"] == 2){
                     echo "<a class='ml8' href='javascript:' onclick='updateRecordState(".$row['acid'].", 1);'>设为未结算</a></li>";

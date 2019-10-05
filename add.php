@@ -1,6 +1,7 @@
 <?php include_once("header.php");?>
 <?php
 //账户列表
+$bankid = get("bankid");
 $banklist = db_list("bank","where userid='$userid' and bankid='".get("bankid")."'","order by bankid asc");
 $banklist_show = '';
 foreach($banklist as $myrow){
@@ -130,6 +131,14 @@ foreach($Prolist as $row){
 		echo "<li><i class='noshow'>".$word.">></i>".$row['classname']."</li>";
 		echo "<li>".bankname($row['bankid'],$userid,"默认账户")."</li>";
 		echo "<li class='t_a_r'>".show_money($row['acmoney'])."</li>";
+		if($row["state"] == 1){
+			$state = "未结算";
+		}else if($row["state"] == 2){
+			$state = "已结算";
+		}else{
+			$state = "未知";
+		}
+		echo "<li>".$state."</li>";
 		if(isMobile()){
 			echo "<li>".date("m-d",$row['actime'])."</li>";
 		}else{

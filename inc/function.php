@@ -98,7 +98,7 @@ function user_mktime($onlinetime) {
 }
 function show_tab($type){
 	if($type==1){
-		echo "<div class=\"table\"><div class=\"table-header-group\"><ul class=\"table-row\"><li>分类</li><li>账户</li><li>金额</li><li>时间</li><li>备注</li><li>操作</li></ul></div>\n";
+		echo "<div class=\"table\"><div class=\"table-header-group\"><ul class=\"table-row\"><li>分类</li><li>账户</li><li>金额</li><li>状态</li><li>时间</li><li>备注</li><li>操作</li></ul></div>\n";
 		echo "<div class=\"table-row-group\">\n";
 	}elseif($type==2){
 		echo "<div class=\"table\"><div class=\"table-header-group\"><ul class=\"table-row\"><li>分类</li><li>账户</li><li>金额</li><li>时间</li><li>备注</li><li>操作</li><li class=\"noshow\"><input type=\"checkbox\" name=\"check_all\" id=\"check_all\" /> <input type='submit' id='del_submit' name='del_submit' value='删除' class='btn btn-danger btn-xs' /></li></ul></div>\n";
