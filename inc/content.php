@@ -115,7 +115,7 @@ function show_type($classtype,$uid){
     }
     return $resArr;
 }
-function itlu_page_search($uid,$pagesize=20,$page=1,$classid,$starttime="",$endtime="",$startmoney="",$endmoney="",$remark="",$bankid="", $state=""){
+function itlu_page_search($uid,$pagesize=200,$page=1,$classid,$starttime="",$endtime="",$startmoney="",$endmoney="",$remark="",$bankid="", $state=""){
 	global $conn;
 	$nums = record_num_query($uid,$classid,$starttime,$endtime,$startmoney,$endmoney,$remark,$bankid);
 	$pages=ceil($nums/$pagesize);
@@ -163,7 +163,7 @@ function itlu_page_search($uid,$pagesize=20,$page=1,$classid,$starttime="",$endt
     }
     return $resArr;
 }
-function itlu_page_query($uid,$pagesize=20,$page=1){
+function itlu_page_query($uid,$pagesize=200,$page=1){
 	global $conn;
 	$nums = record_num_query($uid,"all");
 	$pages=ceil($nums/$pagesize);

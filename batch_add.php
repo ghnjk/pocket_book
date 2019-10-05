@@ -1,5 +1,7 @@
 <?php include_once("header.php");
 
+$bankid = get("bankid");
+$bankname = bankname($bankid, $userid);
 // 支付分类列表
 $pay_type_list = show_type(2,$userid);
 $pay_type_option = "";
@@ -14,6 +16,10 @@ foreach($pay_type_list as $myrow2){
 }
 //检查是否记账并执行
 if (isset($_POST['submit'])){
+	if($bankid == "" || $bankname == ""){
+		echo "empty bankid";
+		exit(0);
+	}
     $path = $_POST['money'];
     $path1 = $_POST['classid'];
     $path2 = $_POST['time'];
@@ -43,9 +49,10 @@ if (isset($_POST['submit'])){
 	if($error_count>0){
 		$message = $message."，失败：".$error_count."条";
 	}
-	echo "<script type='text/javascript'>alert('$message');window.location='batch_add.php';</script>";
+	echo "<script type='text/javascript'>alert('$message');window.location='batch_add.php?bankid=".$bankid."';</script>";
 }
 ?>
+<p><label><strong>批量记录：<?php echo $bankname; ?></strong></label></p>
 <table align="left" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor='#B3B3B3' class='table table-striped table-bordered'>
 <tr><td bgcolor="#EBEBEB"><span class="red">支出</span> - <a href="javascript:void(0);" class="AddBox" date-info="2">加一行</a></td></tr>
 <tr><td bgcolor="#FFFFFF">
@@ -58,7 +65,7 @@ if (isset($_POST['submit'])){
 				<div class="list_2"><i>分类：</i><select name="classid[]"><?php echo $pay_type_option;?></select></div>
 				<div class="list_3"><i>备注：</i><input name="remark[]" type="text" /></div>
 				<div class="list_4">时间：<input type="text" name="time[]" value="<?php echo date("Y-m-d H:i");
-			?>" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm',maxDate:'<?php echo $today;?>'})" /></div>
+			?>" onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})" /></div>
 			</div>
 			<?php }?>
 		</div>
@@ -76,7 +83,7 @@ if (isset($_POST['submit'])){
 				<div class="list_2"><i>分类：</i><select name="classid[]"><?php echo $income_type_option;?></select></div>
 				<div class="list_3"><i>备注：</i><input name="remark[]" type="text" /></div>
 				<div class="list_4">时间：<input type="text" name="time[]" value="<?php echo date("Y-m-d H:i");
-			?>" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm',maxDate:'<?php echo $today;?>'})" /></div>
+			?>" onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})" /></div>
 			</div>
 			<?php }?>
 		</div>

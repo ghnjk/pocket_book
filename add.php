@@ -10,7 +10,7 @@ foreach($banklist as $myrow){
 <table align="left" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor='#B3B3B3' class='table table-striped table-bordered'>
     <tr>
         <td bgcolor="#EBEBEB" class="add_th">
-		<i class="pull-right"><button type="button" class="btn btn-primary btn-xs" onclick="location='batch_add.php'">批量记</button></i>
+		<i class="pull-right"><button type="button" class="btn btn-primary btn-xs" onclick="location='batch_add.php?bankid=<?php echo $bankid;?>'">批量记</button></i>
 		<div class="tab-title"><span class="red on" data-id="pay">支出</span><span class="green" data-id="income">收入</span></div>
 		</td>
     </tr>
@@ -116,7 +116,7 @@ $s_bankid = get("bankid");
 $s_page = '1';
 
 show_tab(1);
-$Prolist = itlu_page_search($userid,50,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid);
+$Prolist = itlu_page_search($userid,500,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid);
 $thiscount = 0;
 foreach($Prolist as $row){
 	if($row['zhifu']==1){

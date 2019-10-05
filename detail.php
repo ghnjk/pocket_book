@@ -117,7 +117,7 @@ if($s_state != ""){
     //show_tab(1);
     echo "<form name='update_all_record' id='update_all_record' method='post' onsubmit='return updateAllRecordState(this, 2);'>";
     show_tab(6);
-        $Prolist = itlu_page_search($userid,20,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid, $s_state);
+        $Prolist = itlu_page_search($userid,200,$s_page,$s_classid,$s_starttime,$s_endtime,$s_startmoney,$s_endmoney,$s_remark,$s_bankid, $s_state);
         $thiscount = 0;
         foreach($Prolist as $row){
             if($row['zhifu']==1){
