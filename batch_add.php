@@ -35,7 +35,7 @@ if (isset($_POST['submit'])){
 			$no_ok_count++;
 			continue;
         }
-        $query = mysqli_query($conn,"insert into ".TABLE."account (acmoney, acclassid, actime, acremark, zhifu, jiid, bankid) values('".$path[$key]."','".$path1[$key]."','$addtime','".$path3[$key]."','".$path4[$key]."','$userid', 0)");
+        $query = mysqli_query($conn,"insert into ".TABLE."account (acmoney, acclassid, actime, acremark, zhifu, jiid, bankid) values('".$path[$key]."','".$path1[$key]."','$addtime','".$path3[$key]."','".$path4[$key]."','$userid', '$bankid')");
 		if($query){
 			$ok_count++;
 		}else{
