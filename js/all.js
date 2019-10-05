@@ -117,7 +117,7 @@ function updateAllRecordState(form, state){
 		alert("未知状态");
 		return false;
 	}
-	alert($("#update_all_record").serialize());
+	//alert($("#update_all_record").serialize());
 	var r=confirm(msg);
 	if(r==true){
 		$.ajax({
