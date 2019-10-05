@@ -5,7 +5,7 @@ include_once("header.php");
 
     <?php
 	show_tab(4);
-	$banklist = db_list("bank","where userid='$userid'","order by bankname asc");
+	$banklist = db_list("bank","where userid='$userid'","order by CONVERT( bankname USING gbk ) asc");
 	foreach($banklist as $row){
 		echo "<ul class=\"table-row\">";
 			echo "<li>".$row["bankname"]."</li>";

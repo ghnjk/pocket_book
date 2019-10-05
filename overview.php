@@ -1,6 +1,6 @@
 <?php include_once("header.php");?>
 <?php 
-$banklist = db_list("bank","where userid='$userid'","order by bankname asc");
+$banklist = db_list("bank","where userid='$userid'","order by CONVERT( bankname USING gbk )  asc");
 ?>
 <div class="table">
     <div class="table-header-group">  
