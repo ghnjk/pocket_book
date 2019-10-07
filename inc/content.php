@@ -27,11 +27,11 @@ function estimate_sumary($start, $end, $uid, $bankid, $state="", $type=0, $class
 	if($bankid != ""){
 		$where .= " and bankid = '$bankid'";
 	}
-	if($start != ""){
-		$where .= " and actime >".strtotime($start." 00:00:00");
+	if(!empty($start)){
+		$sql .= " and actime >= '".strtotime($start." 00:00:00")."' ";
 	}
-	if($end != ""){
-		$where .= " and actime <".strtotime($end." 23:59:59");
+	if(!empty($end)){
+		$sql .= " and actime <= '".strtotime($end." 23:59:59")."' ";
 	}
 	if($type!=0){
 		$where .= " and zhifu='$type' ";

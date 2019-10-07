@@ -104,11 +104,11 @@ if($s_state != ""){
         <td bgcolor="#EBEBEB">汇总信息：</td>
         <td bgcolor="#EBEBEB">总收入：</td>
         <td bgcolor="#EBEBEB"><?php
-            echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid, $s_state,1);
+            echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid, $s_state,1);
         ?></td>
         <td bgcolor="#EBEBEB">总支出</td>
         <td bgcolor="#EBEBEB"><?php
-            echo estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid, $s_state,2);
+            echo show_money(estimate_sumary($s_starttime,$s_endtime,$userid, $s_bankid, $s_state,2));
         ?></td>
     </tr>
 </table>
