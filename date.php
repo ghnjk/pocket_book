@@ -205,9 +205,10 @@ if($getaction=="deleterecordAll"){
     echo json_encode($data);
 }
 if($getaction == "updaterecordAll"){
+	$now_ts = time();
 	if(isset($_POST["del_id"]) && $_POST["del_id"] != ""){
 		$del_id = implode(",",$_POST['del_id']);
-		$sql = "update ".TABLE."account set state = '".get("state")."' where jiid='$userid' and acid in ($del_id)";
+		$sql = "update ".TABLE."account set state = '".get("state")."', settle_time = '".$now_ts."' where jiid='$userid' and acid in ($del_id)";
 		if (mysqli_query($conn,$sql)){
 			$success = "1";
 			$error_code = "更新成功！";

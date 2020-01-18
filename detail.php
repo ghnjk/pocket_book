@@ -144,6 +144,13 @@ if($s_state != ""){
                 }else{
                     echo "<li>".date("Y-m-d",$row['actime'])."</li>";
                 }
+                if($row["settle_time"] == 0){
+                    echo "<li></li>";
+                }else if(isMobile()){
+                   echo "<li>".date("m-d",$row['settle_time'])."</li>";
+                }else{
+                    echo "<li>".date("Y-m-d",$row['settle_time'])."</li>";
+                }
                 echo "<li>".$row['acremark']."</li>";
                 //echo "<li><a href='javascript:' onclick='editRecord(this,\"myModal\")' data-info='{\"id\":\"".$row["acid"]."\",\"money\":\"".$row["acmoney"]."\",\"zhifu\":\"".$row["zhifu"]."\",\"bankid\":\"".$row["bankid"]."\",\"addtime\":\"".date("Y-m-d H:i",$row['actime'])."\",\"remark\":".json_encode($row["acremark"]).",\"classname\":".json_encode($word." -- ".$row["classname"])."}'><img src='img/edit.png' /></a>
                 //<a class='ml8' href='javascript:' onclick='delRecord(\"record\",".$row['acid'].");'><img src='img/del.png' /></a></li>";
