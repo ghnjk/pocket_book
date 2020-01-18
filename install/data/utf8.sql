@@ -23,6 +23,7 @@ CREATE TABLE IF NOT EXISTS `#__account` (
   `acclassid` int(8) NOT NULL COMMENT '分类ID',
   `actime` int(11) NOT NULL COMMENT '记账时间',
   `acremark` varchar(50) NOT NULL,
+  `settle_time` int(11) DEFAULT 0 COMMENT `结算时间`,
   `jiid` int(8) NOT NULL COMMENT '记账用户ID',
   `zhifu` int(8) NOT NULL COMMENT '类型 1为收入 2为支出',
   `bankid` int(8) NOT NULL COMMENT '账户ID',
