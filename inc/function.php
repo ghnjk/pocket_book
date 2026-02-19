@@ -2,6 +2,9 @@
 if(!defined("DB_HOST")){die('非法访问！');}
 
 $version = 'V2.2.0(19.08.02)';
+if(!defined("PB_REQUEST_ID")){
+	define("PB_REQUEST_ID", uniqid("req_", true));
+}
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_PORT); 
 if(!$conn){
@@ -67,6 +70,38 @@ function hash_md5($password,$salt){
 	$password=md5($password);
 	return $password;
 }
+function pb_mask_sensitive($value, $left = 2, $right = 2){
+	$value = trim((string)$value);
+	$len = strlen($value);
+	if($len <= ($left + $right) || $len <= 2){
+		return str_repeat("*", $len);
+	}
+	return substr($value, 0, $left).str_repeat("*", $len-$left-$right).substr($value, -$right);
+}
+function pb_write_log($event, $context = array(), $level = "INFO"){
+	$log_dir = dirname(__DIR__)."/data/logs";
+	if(!is_dir($log_dir)){
+		@mkdir($log_dir, 0777, true);
+	}
+	$log_file = $log_dir."/php_login_".date("Ymd").".log";
+	$base = array(
+		"time" => date("Y-m-d H:i:s"),
+		"level" => $level,
+		"request_id" => PB_REQUEST_ID,
+		"event" => $event,
+		"uri" => isset($_SERVER["REQUEST_URI"]) ? $_SERVER["REQUEST_URI"] : "",
+		"method" => isset($_SERVER["REQUEST_METHOD"]) ? $_SERVER["REQUEST_METHOD"] : "",
+		"ip" => isset($_SERVER["REMOTE_ADDR"]) ? $_SERVER["REMOTE_ADDR"] : "",
+	);
+	if(isset($_SESSION["uid"])){
+		$base["session_uid"] = $_SESSION["uid"];
+	}
+	if(is_array($context)){
+		$base = array_merge($base, $context);
+	}
+	$line = json_encode($base, JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES).PHP_EOL;
+	@error_log($line, 3, $log_file);
+}
 function table($dbname){
 	$dbname = TABLE.$dbname;	
 	return $dbname;
@@ -83,6 +118,7 @@ if(isset($_SESSION['uid'])){
 }
 function loginchk($uid){
 	if($uid=="" || empty($uid) || $uid==null){
+		pb_write_log("user_state_check_failed", array("reason" => "empty_uid"), "WARN");
 		msgbox("您无权限访问该页,正在跳转登入页面...","","login.php");
 	}
 }
@@ -337,8 +373,12 @@ require_once("Smtp.class.php");
 require_once("smtp_config.php");
 if(!empty($_COOKIE["userinfo"])){
 	$userinfo = AES::decrypt($_COOKIE["userinfo"], $sys_key);
+	if(empty($userinfo) || !is_array($userinfo)){
+		pb_write_log("userinfo_cookie_decrypt_failed", array("cookie_len" => strlen($_COOKIE["userinfo"])), "WARN");
+	}
 }
 if(empty($_COOKIE["userinfo"]) && $userid>0){
+	pb_write_log("user_state_check_failed", array("reason" => "session_exists_cookie_missing", "uid" => $userid), "WARN");
 	$_SESSION['uid'] = "";
 	gotourl(SiteURL."login.php");
 }

@@ -7,13 +7,16 @@ include_once("data/config.php");
 include_once("inc/function.php");
 
 $getaction = get("action");//获取参数
+pb_write_log("login_page_visit", array("action" => $getaction));
 
 if($getaction=="loginout"){
+	pb_write_log("logout_start");
 	unset($_SESSION['uid']);
 	unset($_SESSION['email']);
 	unset($_SESSION['pageurl']);
 	unset($_SESSION['new_name']);
 	setcookie("userinfo", "", time()-3600);
+	pb_write_log("logout_success");
 	alertgourl("注销成功！","login.php");
 }
 if($getaction=="register" and Multiuser=="1"){ // 注册
@@ -28,6 +31,7 @@ if($getaction=="register" and Multiuser=="1"){ // 注册
 	$first_input = "user_email";
 }elseif($getaction=="reset"){//重置密码
 	if(empty($_SESSION['email'])){
+		pb_write_log("reset_page_invalid_session", array("reason" => "empty_email_session"), "WARN");
 		alertgourl("参数非法！","login.php");
 	}
 	$form_name = "reset_form";
