@@ -80,7 +80,7 @@ function pb_mask_sensitive($value, $left = 2, $right = 2){
 }
 function pb_write_log($event, $context = array(), $level = "INFO"){
 	$log_dir = dirname(__DIR__)."/data/logs";
-	$log_dir = "/var/www/html/pocket_book/data/logs"
+	$log_dir = "/var/www/html/pocket_book/data/logs";
 	if(!is_dir($log_dir)){
 		@mkdir($log_dir, 0777, true);
 	}
